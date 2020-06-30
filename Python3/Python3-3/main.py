@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 from matplotlib import font_manager
 
+gameFont = font_manager.FontProperties(fname = r'PressStart2P-Regular.ttf')
 
 # give data:
 x = list(range(1978, 2018))
@@ -27,12 +28,8 @@ plt.plot(x, y_recruit, label="enrolled")
 plt.plot(x, y_graduate,
          color = "orange",
          linewidth=3,
-         linestyle=":") # Can explore
-
-gameFont = font_manager.FontProperties(fname = r'PressStart2P-Regular.ttf')
-
-#Legend
-plt.legend(prop=gameFont, fontsize=12)
+         linestyle="-.",  # Can explore with '-', '--', '-.', ':', 'None', ' ', '', 'solid', 'dashed', 'dashdot', 'dotted'
+         label="graduated")
 
 plt.grid(alpha=0.5)
 
@@ -42,8 +39,12 @@ plt.ylabel("number", fontproperties=gameFont, fontsize=12)
 plt.title("title", fontproperties=gameFont, fontsize=18)
 
 #Another way
-# ax = plt.gca()
-# ax.grid(True)
+ax = plt.gca()
+ax.grid(True)
+
+#Legend
+# plt.legend(prop=gameFont,fontsize=12)
+plt.legend()
 
 #show
 plt.show()
