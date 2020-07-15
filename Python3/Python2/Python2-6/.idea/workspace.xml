@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51fc2a8d-c9cc-41c7-a7b5-ff2289a9437d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b9likSnHgqLR6mZ05khV2pvu1N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.Ball">
+    <configuration name="Ball" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2-6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/Ball.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Canvas2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2-6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/Canvas2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Canvas2_T2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2-6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/Canvas2_T2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Canvas_T1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2-6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/Canvas_T1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Canvas_T3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2-6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/Canvas_T3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Ball" />
+        <item itemvalue="Python.Canvas_T3" />
+        <item itemvalue="Python.Canvas2_T2" />
+        <item itemvalue="Python.Canvas2" />
+        <item itemvalue="Python.Canvas_T1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51fc2a8d-c9cc-41c7-a7b5-ff2289a9437d" name="Default Changelist" comment="" />
+      <created>1588052319534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588052319534</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="832" height="161" key="GridCell.Tab.0.bottom" timestamp="1592156364494">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="832" height="161" key="GridCell.Tab.0.bottom/0.23.1440.775@0.23.1440.775" timestamp="1591554716066" />
+    <state width="1419" height="164" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1590970307869" />
+    <state width="1419" height="165" key="GridCell.Tab.0.bottom/0.23.1440.786@0.23.1440.786" timestamp="1590385519120" />
+    <state width="1419" height="200" key="GridCell.Tab.0.bottom/0.23.1440.789@0.23.1440.789" timestamp="1589421733500" />
+    <state width="832" height="161" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592156364494" />
+    <state width="832" height="161" key="GridCell.Tab.0.center" timestamp="1592156364493">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="832" height="161" key="GridCell.Tab.0.center/0.23.1440.775@0.23.1440.775" timestamp="1591554716066" />
+    <state width="1419" height="164" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1590970307868" />
+    <state width="1419" height="165" key="GridCell.Tab.0.center/0.23.1440.786@0.23.1440.786" timestamp="1590385519119" />
+    <state width="1419" height="200" key="GridCell.Tab.0.center/0.23.1440.789@0.23.1440.789" timestamp="1589421733500" />
+    <state width="832" height="161" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592156364493" />
+    <state width="832" height="161" key="GridCell.Tab.0.left" timestamp="1592156364493">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="832" height="161" key="GridCell.Tab.0.left/0.23.1440.775@0.23.1440.775" timestamp="1591554716065" />
+    <state width="1419" height="164" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1590970307868" />
+    <state width="1419" height="165" key="GridCell.Tab.0.left/0.23.1440.786@0.23.1440.786" timestamp="1590385519119" />
+    <state width="1419" height="200" key="GridCell.Tab.0.left/0.23.1440.789@0.23.1440.789" timestamp="1589421733500" />
+    <state width="832" height="161" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592156364493" />
+    <state width="832" height="161" key="GridCell.Tab.0.right" timestamp="1592156364494">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="832" height="161" key="GridCell.Tab.0.right/0.23.1440.775@0.23.1440.775" timestamp="1591554716066" />
+    <state width="1419" height="164" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1590970307869" />
+    <state width="1419" height="165" key="GridCell.Tab.0.right/0.23.1440.786@0.23.1440.786" timestamp="1590385519120" />
+    <state width="1419" height="200" key="GridCell.Tab.0.right/0.23.1440.789@0.23.1440.789" timestamp="1589421733500" />
+    <state width="832" height="161" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592156364494" />
+    <state x="374" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1591829677795">
+      <screen x="0" y="23" width="1440" height="775" />
+    </state>
+    <state x="374" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.775@0.23.1440.775" timestamp="1591829677795" />
+    <state x="374" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.786@0.23.1440.786" timestamp="1590019255659" />
+    <state x="374" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.789@0.23.1440.789" timestamp="1589345756767" />
+    <state x="385" y="136" width="670" height="676" key="search.everywhere.popup" timestamp="1589421680372">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="385" y="136" width="670" height="676" key="search.everywhere.popup/0.23.1440.789@0.23.1440.789" timestamp="1589421680372" />
+  </component>
+</project>
