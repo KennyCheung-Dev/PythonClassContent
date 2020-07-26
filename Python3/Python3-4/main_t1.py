@@ -67,7 +67,7 @@ import numpy as np
 # print(a[[0, 2, 4]])
 
 # Multidimensional arrays:
-a = np.array([2, 7, 1, 8, 2, 8, 9, 4, 3]).reshape([3, 3])
+# a = np.array([2, 7, 1, 8, 2, 8, 9, 4, 3]).reshape([3, 3])
 # [[2 7 1]
 #  [8 2 8]]
 # print(a)
@@ -87,19 +87,105 @@ a = np.array([2, 7, 1, 8, 2, 8, 9, 4, 3]).reshape([3, 3])
 # (sort it yourself)
 
 #Q3. Print the number at index 2 on each row
-a = np.array([2, 7, 1, 8, 2, 9]).reshape([2, 3])
-print(a[[5, 3, 1, 0, 4, 2]])
+# a = np.array([2, 7, 1, 8, 2, 9]).reshape([2, 3])
+# print(a[[5, 3, 1, 0, 4, 2]])
 
 # Homework:
 # Build the following matrix:
 # 0, 1, 2, 3,
 # 4, 5, 6, 7
-# 8, 9, 10, 11, 12
+# 8, 9, 10, 11
 # changed the shape into 4 : 3 (4 rows and 3 columns)
 # Access every 1st element in each line
 # Access the last element in the second line
 # Add them all up for a final answer
 # We will simply test with that final answer
+
+# a = np.array(list(range(0, 12))).reshape([4, 3])
+# print(a)
+# print(a[0:4, 0])
+# print(a[1, 2])
+# print(np.sum(a[0:4, 0]) + a[1, 2])
+
+#Adding Elements in numpy array
+# np.append
+# a = np.arange(5)
+# print(a)
+# b = np.append(a, 5)
+# print(b)
+# c = np.append(a, [5, 6, 7])
+# print(c)
+# d = np.append(a, a[2:4])
+# print(d)
+
+# np.insert
+# a = np.arange(5)
+# print(a)
+# b = np.insert(a, 0, -1)
+# print(b)
+# d = np.arange(-3, 0)
+# c = np.insert(a, 3, d)
+# print(c)
+
+#Modifying
+# a = np.arange(5)
+# print(a)
+#Change the 2nd element in the list to "5"
+# [0, 1, 2, 3, 4]
+# [0, 5, 2, 3, 4]
+# a[1] = 5
+# print(a)
+# Normal way to  assign values : list[5] = 20
+#Change the last two elements in the list to "[8, 9]"
+# [0, 1, 2, 8, 9]
+# a[3:5] = [8, 9]
+# print(a)
+
+
+# np.delete
+# a = np.arange(5)
+# print(a)
+# b = np.delete(a, [2, 3, 4])
+# print(b)
+
+'''
+In-Class Exercise:
+Make this list equal to np.arange(10)
+by adding the missing numbers
+and deleting excessive numbers
+'''
+print(np.arange(10))
+
+a = np.array([0, 1, 3, 572, 4, 6, 8])
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
