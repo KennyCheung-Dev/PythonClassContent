@@ -154,10 +154,113 @@ Make this list equal to np.arange(10)
 by adding the missing numbers
 and deleting excessive numbers
 '''
-print(np.arange(10))
+# print(np.arange(10))
+#
+# a = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+# print(a)
 
-a = np.array([0, 1, 3, 572, 4, 6, 8])
-print(a)
+#In-Class Exercise:
+# 1.  Make this list sorted (smallest to largest)
+# by removing the out of place numbers,
+# removing the least number of elements as possible
+a = np.array([5, 2, 3, 1, 6, 8])
+# np.delete()
+
+# Guuuuud puzzle game :  Baba Is You
+
+
+# a = np.array([1, 2, 3])
+# print(a + 3)
+# print(a - 3)
+# print(a * 3)
+# print(a / 3)
+# print(a ** 3)
+# print(a % 3)
+
+# a = np.array([1, 2, 3])
+# b = np.array([4, 5, 6])
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+
+#Other operations: min max sum cumsum()
+# a = np.array(range(1, 101))
+# print(a.max())
+# print(a.min())
+# print(a.sum())
+# print(a.cumsum())
+
+# diff
+# ceil/floor
+# All/any
+# Dot
+# Average
+# Sin/Cos
+# Exp
+
+# Sorting
+# Simplest sort function, sorts in place
+# Use np.sort(a)
+# Optional parameters:
+# axis: two possible values: 0, 1
+# kind: choose between different sorting algorithms
+# (quicksort, mergesort, heapsort, stable)
+# order: sorts by a given list of fields, don't need to
+# worry about this one
+# a = np.array([5, 2, 3, 1, 6, 8]).reshape(2, 3)
+# print(a)
+# b = np.sort(a, kind="mergesort")
+# print(b)
+
+# argsort
+# a = np.array([5, 2, 3, 1, 6, 8])
+# print(a)
+# b = np.argsort(a)
+# print(b)
+# position 3: 1
+# position 1: 2
+# position 2: 3
+# position 0: 5
+# position 4: 6
+# position 5: 8
+# Write a function with input array a
+# that returns a sorted version a
+# using the argsort only
+# def sort_with_argsort(a):
+#     return a[np.argsort(a)]
+# def sort_with_argsort(a):
+#     indices= np.argsort(a)
+#     sortedList = a[indices]
+#     return sortedList
+#step1: use argsort, get the indices
+#step2: use the indices to get the sorted array
+#step3: return it
+# print(sort_with_argsort(a))
+
+'''
+Homework:
+Create 3 arrays of 100 numbers each randomly (Actually use np.random)
+Multiply A with B, then divide the answer by C
+Then, use the argsort function we built today on it
+Then, Delete every 2nd number using [::2]
+Finally, print the result
+'''
+
+a = np.random.randint(low = 1, high = 1000, size = 100)
+b = np.random.randint(low = 1, high = 1000, size = 100)
+c = np.random.randint(low = 1, high = 1000, size = 100)
+d = a*b/c
+def swd(d):
+    return d[np.argsort(a*b/c)]
+print(swd(d)[::2])
+
+
+
+
+
+
+
 
 
 

@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9829a408-cde7-4f62-98e4-83255dd65463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project1-5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/Python1-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python1-4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaesarCipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python3/Python3-4/main_t2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python3/Python3-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/Python3-3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python1-7/HomeworkAnswer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python1-7/HomeworkAnswerExplain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python1-7/SnowFlake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python1-7/SnowFlakeQuestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python1-7/indexingSlicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python1-8/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaesarCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/CaesarCipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/Python3-4/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/Python3-4/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/Python3-4/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/Python3-4/main_t2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,22 +114,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1595579150841">
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom" timestamp="1596013284634">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595579150841" />
-    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1595579150840">
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596013284634" />
+    <state width="1419" height="190" key="GridCell.Tab.0.center" timestamp="1596013284633">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595579150840" />
-    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1595579150840">
+    <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596013284633" />
+    <state width="1419" height="190" key="GridCell.Tab.0.left" timestamp="1596013284633">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595579150840" />
-    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1595579150841">
+    <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596013284633" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right" timestamp="1596013284633">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595579150841" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596013284633" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1595570313571">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
