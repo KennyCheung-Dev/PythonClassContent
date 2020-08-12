@@ -67,16 +67,16 @@ peaches  5
 chestnuts9
 '''
 
-dict = {
-    'apples' : 3,
-    'oranges' : 1,
-    'pears' : 4,
-    'cherries' : 1,
-    'peaches' : 5,
-    'chestnuts' : 9
-}
-a = pd.Series(dict, name="FruitsIEatInAMinute")
-print(a)
+# dict = {
+#     'apples' : 3,
+#     'oranges' : 1,
+#     'pears' : 4,
+#     'cherries' : 1,
+#     'peaches' : 5,
+#     'chestnuts' : 9
+# }
+# a = pd.Series(dict, name="FruitsIEatInAMinute")
+# print(a)
 
 #Accessing values just like before
 # print(a['oranges'])
@@ -92,18 +92,18 @@ print(a)
 # df = pd.DataFrame(d)
 # print(df)
 
-d = {
-    "item" : {
-        'a' : 'apples',
-        'b' : 'oranges',
-        'c' : 'pears'
-    },
-    "amount" : {
-        'b' : 1,
-        'c' : 2,
-        'd' : 3
-    }
-}
+# d = {
+#     "item" : {
+#         'a' : 'apples',
+#         'b' : 'oranges',
+#         'c' : 'pears'
+#     },
+#     "amount" : {
+#         'b' : 1,
+#         'c' : 2,
+#         'd' : 3
+#     }
+# }
 
 # df = pd.DataFrame(d)
 # print(df)
@@ -118,13 +118,128 @@ d = {
 # In-Class / Homework:
 # 1. Conver the following data into a DataFrame
 # using the first row/column as labels
-names = pd.Series(['Chad', 'John', 'Andrew', 'Peter', 'Zack', 'Jaymi'],
-                   index = [1001, 1002, 1003, 1004, 1005, 1006, 1007],
-                   name="Name")
-grades = pd.Series({1001:65, 1002:93, 1003:72, 1005:87, 1006:79, 1007:53},
-                   name="Grade")
-ism = pd.Series({1001: False, 1002: True, 1004: False, 1006: True, 1007: True},
-                name = "isStudyingMath")
+# names = pd.Series(['Chad', 'John', 'Andrew', 'Peter', 'Zack', 'Jaymi', 'Kenny'],
+#                    index = [1001, 1002, 1003, 1004, 1005, 1006, 1007],
+#                    name="Name")
+# grades = pd.Series({1001:99, 1002:99, 1003:99, 1004:99, 1005:99, 1006:99, 1007:99},
+#                    name="Grade")
+# ism = pd.Series({1001: False, 1002: True, 1004: False, 1006: True, 1007: True},
+#                 name = "isStudyingMath")
+#
+# data = {"names" : names,
+#         "grades" : grades,
+#         "IsStudyingMath" : ism}
+
+#Answer:
+# df = pd.DataFrame(data)
+# print(df)
+
+# ---------------------------------------------------------------------
+
+# Select Data from DataFrame
+# Want First few or last few?
+# df.head()  df.tail()
+
+# dict = {
+#     'apples' : 3,
+#     'oranges' : 1,
+#     'pears' : 4,
+#     'cherries' : 1,
+#     'peaches' : 5,
+#     'chestnuts' : 9
+# }
+# dfData = {
+#     "amount" : dict
+# }
+# df = pd.DataFrame(dfData)
+# print(df.head())
+# print(df.tail())
+# print(df.head(2))
+# print(df.tail(2))
+
+
+
+#Locator
+# print(df.loc['cherries'])
+# print(df.loc['chestnuts'])
+# print(df.iloc[4])
+# print(df)
+# print(df[2:5])
+# print(df['chestnuts':'pears'])
+
+
+# In-Class Exercise:
+# Using the DataFrame we created in homework
+# Retrieve the names and grades from the students with IDs 1002 and 1006
+# Together with one line
+
+#        name   grades
+# 1002   John     99.0
+# 1006  Jaymi     99.0
+
+# Hint: When retrieving multiple values you can use
+# [[key1, key2, key3]]
+# names = pd.Series(['Chad', 'John', 'Andrew', 'Peter', 'Zack', 'Jaymi', 'Kenny'],
+#                    index = [1001, 1002, 1003, 1004, 1005, 1006, 1007],
+#                    name="Name")
+# grades = pd.Series({1001:99, 1002:99, 1003:99, 1004:99, 1005:99, 1006:99, 1007:99},
+#                    name="Grade")
+# ism = pd.Series({1001: False, 1002: True, 1004: False, 1006: True, 1007: True},
+#                 name = "isStudyingMath")
+#
+# data = {"names" : names,
+#         "grades" : grades,
+#         "IsStudyingMath" : ism}
+
+# Answer:
+# df = pd.DataFrame(data)
+# print(df)
+
+# My Answer:
+# print(df[['names', 'grades']].loc[[1002, 1006]])
+
+# Student's Successful Answer:
+# print(df.loc[[1002, 1006], ['names', 'grades']])
+
+
+# Sorting
+
+dict = {
+    'apples' : 3,
+    'oranges' : 1,
+    'pears' : 4,
+    'cherries' : 1,
+    'peaches' : 5,
+    'chestnuts' : 9
+}
+dfData = {
+    "amount" : dict
+}
+df = pd.DataFrame(dfData)
+
+# print(df.sort_index(axis=0, ascending=False))
+# print(df.sort_values(by='amount', ascending=False))
+
+print(df.describe())
+
+print(df.apply(np.max))
+
+# Summary:
+'''
+Introduction to Pnadas and Numpy
+Series
+DataFrame
+Statistica information retrieval
+Apply functions to retrieve further information
+'''
+
+# Next:
+'''
+DataFrame Modification
+'''
+
+
+
 
 
 

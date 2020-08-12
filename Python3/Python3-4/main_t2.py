@@ -180,27 +180,27 @@ import numpy as np
 # 1. Make this list equal to np.arange(10)
 # by adding the missing numbers
 # Hint: np.arange(10) = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-a = np.array([0, 1, 3, 4, 6, 8])
-print(a)
+# a = np.array([0, 1, 3, 4, 6, 8])
+# print(a)
 
 # 2. Make this list sorted (smallest to largest)
 # by removing the out of place numbers,
 # removing the least number of elements as possible
-a = np.array([5, 2, 3, 1, 6, 8])
+# a = np.array([5, 2, 3, 1, 6, 8])
 # Hint: You can remove 2 numbers
 
 # Arithmetic Operations + - * /
-balanceForBankUser = np.array([200, 300, 10, 900, -4])
-newB = balanceForBankUser + 3000
-print(newB)
+# balanceForBankUser = np.array([200, 300, 10, 900, -4])
+# newB = balanceForBankUser + 3000
+# print(newB)
+#
+# newB = balanceForBankUser / 2
+# print(newB)
 
-newB = balanceForBankUser / 2
-print(newB)
 
-
-GovernmentsDebt = np.array([30, 600, 0, -400, -900000])
-finalBalance = balanceForBankUser - GovernmentsDebt
-print(finalBalance)
+# GovernmentsDebt = np.array([30, 600, 0, -400, -900000])
+# finalBalance = balanceForBankUser - GovernmentsDebt
+# print(finalBalance)
 
 # Diff
 # Ceil/Floor
@@ -222,6 +222,102 @@ gravity = -9.8 #m/s/s  (unit for acceleration)
 # After Second second is passed, speed is now -9.8 * 2
 # height fo the first ball is now 0.6
 
+# velocity = 0
+# height = np.array(currentHeightOfBalls)
+# for i in range(3):
+#     velocity += gravity
+#     height = height + velocity
+#     print("Current Velocity : " + str(velocity))
+#     print("Current Height Of Balls : " + str(height))
+#     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Homework Q3.
+currentHeightOfBalls = [30, 700, 90, 2000] # in meters
+# Initial speed is 0.0m/s
+gravity = -9.8 #m/s/s  (unit for acceleration)
+#Calculate the height of all the balls after 3 seconds
+
+# After First second is passed, speed is -9.8,
+# height of first ball 20.2
+
+# After Second second is passed, speed is now -9.8 * 2
+# height fo the first ball is now 0.6
+
+# height = np.array(currentHeightOfBalls)
+# speed = 0
+# for i in range(3):
+#     speed += gravity
+#     height = height + speed
+#     print("Current Velocity : " + str(speed))
+#     print("Current Height Of Balls : " + str(height))
+#     print()
+
+# [6.0000e-01 6.7060e+02 6.0600e+01 1.9706e+03]
+
+'''
+0.6  670.6
+'''
+
+
+
+
+# sort np arrays
+# a = np.array([5, 2, 3, 1, 6, 8])
+# print(a)
+# b = np.sort(a, kind="mergesort")
+# print(b)
+
+# a = np.array([[5, 2, 8], [1, 6, 3]])
+# print(a)
+# b = np.sort(a, axis=0)
+# print(b)
+
+# argsort
+# instead of  sorting the array for you
+# It gives you the indices that would sort the array
+a = np.array([5, 2, 3, 1, 6, 8])
+
+# 1 Write a function with input array a
+# that returns a sorted version of a
+def sort_with_argsort(a):
+    indices = np.argsort(a)
+    b = np.array([])
+    for i in indices:
+        b = np.append(b, a[i])
+    return b
+
+print(sort_with_argsort(a))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 print('''
  ,_     _
@@ -236,17 +332,5 @@ print('''
  ((_/`(____,-'
 ''')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print('''/ᐠ ._. ᐟ\ﾉ''' + ' William\'s Cate')
+print('''*:･ﾟ✧(=✪ ᆺ ✪=)*:･ﾟ✧''' + ' Also William\'s Cate')

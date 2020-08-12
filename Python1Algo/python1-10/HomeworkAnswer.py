@@ -84,3 +84,6 @@ for color in colors:
 print(newColors)
 
 # 8 lines less
+
+
+
