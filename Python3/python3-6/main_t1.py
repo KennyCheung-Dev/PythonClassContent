@@ -58,10 +58,10 @@ print(df)
 # df.assign(): a more powerful function  for column insertion
 # Returns a new DataFrame intead of changing the original
 # great for method chaining)
-new_df = df.assign(day2diff = df["day2"] - df["day1"])\
-    .assign(day3diff = df["day3"] - df["day2"])\
-    .assign(totalDiff = lambda x: (x["day2diff"] + x["day3diff"]))
-print(new_df)
+# new_df = df.assign(day2diff = df["day2"] - df["day1"])\
+#     .assign(day3diff = df["day3"] - df["day2"])\
+#     .assign(totalDiff = lambda x: (x["day2diff"] + x["day3diff"]))
+# print(new_df)
 
 # Homework:
 # Use Assign to add a "Price" column, and immediately
@@ -72,3 +72,13 @@ print(new_df)
 # Make up the price yourself
 
 # df.assign(Add Price in).assign(price * day1)
+
+#Answer:
+new_df = df.assign(day2diff = df["day2"] - df["day1"])\
+    .assign(day3diff = df["day3"] - df["day2"])\
+    .assign(totalDiff = lambda x: (x["day2diff"] + x["day3diff"]))\
+    .assign(price = pd.Series([8, 4, 5, 2, 7, 1], index=labels))\
+    .assign(Profit=lambda x: (x["price"] * x["totalDiff"]))
+
+
+print(new_df)

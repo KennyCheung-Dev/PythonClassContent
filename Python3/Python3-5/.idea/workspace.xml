@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c04a65-42a0-43f8-866d-5370a22a3040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-10/Function_Teaching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-11/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-11/.idea/python1-11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/python1-12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-12/PrimeNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_t2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python3-6/main_t1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-10/HomeworkAnswer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-10/HomeworkAnswer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python3-4/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python3-4/main_t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-13/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_t2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,22 +155,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="195" key="GridCell.Tab.0.bottom" timestamp="1597207098413">
+    <state width="1419" height="302" key="GridCell.Tab.0.bottom" timestamp="1597296010051">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="195" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597207098413" />
-    <state width="1419" height="195" key="GridCell.Tab.0.center" timestamp="1597207098412">
+    <state width="1419" height="302" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597296010051" />
+    <state width="1419" height="302" key="GridCell.Tab.0.center" timestamp="1597296010050">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="195" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597207098412" />
-    <state width="1419" height="195" key="GridCell.Tab.0.left" timestamp="1597207098411">
+    <state width="1419" height="302" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597296010050" />
+    <state width="1419" height="302" key="GridCell.Tab.0.left" timestamp="1597296010050">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="195" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597207098411" />
-    <state width="1419" height="195" key="GridCell.Tab.0.right" timestamp="1597207098412">
+    <state width="1419" height="302" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597296010050" />
+    <state width="1419" height="302" key="GridCell.Tab.0.right" timestamp="1597296010050">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="195" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597207098412" />
+    <state width="1419" height="302" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597296010050" />
     <state x="167" y="106" key="SettingsEditor" timestamp="1596676848116">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
