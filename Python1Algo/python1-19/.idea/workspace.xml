@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cfbdaec-a938-46f3-aea0-1cbdb44003b0" name="Default Changelist" comment="">
+    <list default="true" id="caa1e5aa-e559-4e51-84b7-d5e438801260" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../python1-15/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python1-14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python1-15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-15/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/Python3-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/Python3-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/python3-6/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-6/main_t1.py" afterDir="false" />
@@ -24,10 +25,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1fvWLXLbrsFbM5xPVSp1IglZfrW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1gI508bSQ8VCBEeD3CyaHrlsdLq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,30 +35,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="StringOperations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python1-14" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StringOperations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python1-14" />
+      <module name="python1-19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -82,7 +60,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.StringOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -103,34 +80,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cfbdaec-a938-46f3-aea0-1cbdb44003b0" name="Default Changelist" comment="" />
-      <created>1597098990515</created>
+      <changelist id="caa1e5aa-e559-4e51-84b7-d5e438801260" name="Default Changelist" comment="" />
+      <created>1597789039927</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597098990515</updated>
+      <updated>1597789039927</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="169" key="GridCell.Tab.0.bottom" timestamp="1597391732585">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1597814347804">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="169" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597391732585" />
-    <state width="1419" height="169" key="GridCell.Tab.0.center" timestamp="1597391732584">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597814347804" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1597814347803">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="169" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597391732584" />
-    <state width="1419" height="169" key="GridCell.Tab.0.left" timestamp="1597391732584">
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597814347803" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1597814347803">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="169" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597391732584" />
-    <state width="1419" height="169" key="GridCell.Tab.0.right" timestamp="1597391732584">
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597814347803" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1597814347803">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="169" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597391732584" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597298847854">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597298847854" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597814347803" />
   </component>
 </project>

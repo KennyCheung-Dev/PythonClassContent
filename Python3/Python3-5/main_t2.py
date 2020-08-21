@@ -249,10 +249,10 @@ print(df)
 # df.assign()
 # returns a new DataFrame instead of changing the original
 # Great for method chaining
-new_df = df.assign(day2diff=df["day2"]-df["day1"])\
-    .assign(day3diff=df["day3"]-df["day2"])\
-    .assign(totalDifference=   lambda x : (x["day2diff"]+x["day3diff"])    )
-print(new_df)
+# new_df = df.assign(day2diff=df["day2"]-df["day1"])\
+#     .assign(day3diff=df["day3"]-df["day2"])\
+#     .assign(totalDifference=   lambda x : (x["day2diff"]+x["day3diff"])    )
+# print(new_df)
 
 # Homework:
 # 1) Get Familiar with using assign lambda
@@ -260,6 +260,16 @@ print(new_df)
 # can be done in 2 assigns (having middle step in day1+day2+day3
 # or can be done in 1 assigns
 
+new_df = df.assign(day2diff=df["day2"]-df["day1"])\
+    .assign(day3diff=df["day3"]-df["day2"])\
+    .assign(totalDifference=   lambda x : (x["day2diff"]+x["day3diff"]))\
+    .assign(day123 = df["day1"] + df["day2"] + df["day3"])\
+    .assign(totalAmount= lambda x: (x["day123"] - x["totalDifference"]))
+
+    # lambda(x):
+    #     return x["day2diff"]+x["day3diff"]
+
+print(new_df)
 
 
 

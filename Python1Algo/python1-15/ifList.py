@@ -64,54 +64,54 @@ How many times has the third machine been played?
 You will be able to play 66 times before going broke.
 '''
 
-# def PredictTimesPlayed(coin, m1, m2, m3):
-#     times = 0
-#     while True:
-#         # First Machine
-#         coin -= 1
-#         m1 += 1
-#         times += 1
-#         if m1 == 35:
-#             coin += 30
-#             m1 = 0
-#
-#         # Ending Condition
-#         if coin <= 0:
-#             return times
-#
-#         # Second Machine
-#         coin -= 1
-#         m2 += 1
-#         times += 1
-#         if m2 == 100:
-#             coin += 60
-#             m1 = 0
-#
-#         # Ending Condition
-#         if coin <= 0:
-#             return times
-#
-#         # Third Machine
-#         coin -= 1
-#         m3 += 1
-#         times += 1
-#         if m3 == 10:
-#             coin += 9
-#             m3 = 0
-#
-#         # Ending Condition
-#         if coin <= 0:
-#             return times
-#
-# print("How many coin do you have?")
-# coin = int(input())
-# print("How many times has the first machine been played?")
-# m1 = int(input())
-# print("How many times has the second machine been played?")
-# m2 = int(input())
-# print("How many times has the third machine been played?")
-# m3 = int(input())
-# print("You will be able to play " + str(PredictTimesPlayed(coin, m1, m2, m3)) + " times before going broke.")
+def PredictTimesPlayed(coin, m1, m2, m3):
+    times = 0
+    while True:
+        # First Machine
+        coin -= 1
+        m1 += 1
+        times += 1
+        if m1 == 35:
+            coin += 30
+            m1 = 0
+
+        # Ending Condition
+        if coin <= 0:
+            return times
+
+        # Second Machine
+        coin -= 1
+        m2 += 1
+        times += 1
+        if m2 == 100:
+            coin += 60
+            m1 = 0
+
+        # Ending Condition
+        if coin <= 0:
+            return times
+
+        # Third Machine
+        coin -= 1
+        m3 += 1
+        times += 1
+        if m3 == 10:
+            coin += 9
+            m3 = 0
+
+        # Ending Condition
+        if coin <= 0:
+            return times
+
+print("How many coin do you have?")
+coin = int(input())
+print("How many times has the first machine been played?")
+m1 = int(input())
+print("How many times has the second machine been played?")
+m2 = int(input())
+print("How many times has the third machine been played?")
+m3 = int(input())
+print("You will be able to play " + str(PredictTimesPlayed(coin, m1, m2, m3)) + " times before going broke.")
 
 # -----------------------------------------------------------------
 
@@ -150,15 +150,15 @@ You will be able to play 66 times before going broke.
 # 拿走的箱子
 # offer
 '''
-2
-3
-8
+2      <-  被拿走的箱子的数量
+3      <-  第一个箱子的号码
+8      <-  第二个箱子的号码
 198000
 '''
 # 以上数据显示
 # 拿走了两个箱子
 # 3号和8号
-# 银行offer 1980000
+# 银行offer 198000
 
 # Ouput:
 '''
@@ -331,22 +331,22 @@ No Deal
 # This:-(is str:-(:-(ange te:-)xt.
 # sad
 
-text=input()
-happy = 0
-sad = 0
-for i in range(len(text)-2):
-    if text[i:i+3] == ":-)":
-        happy += 1
-    elif text[i:i+3] == ":-(":
-        sad += 1
-if sad > happy:
-    print("sad")
-elif happy  > sad:
-    print("happy")
-elif happy == 0 and sad == 0:
-    print("none")
-elif happy == sad:
-    print("unsure")
+# text=input()
+# happy = 0
+# sad = 0
+# for i in range(len(text)-2):
+#     if text[i:i+3] == ":-)":
+#         happy += 1
+#     elif text[i:i+3] == ":-(":
+#         sad += 1
+# if sad > happy:
+#     print("sad")
+# elif happy  > sad:
+#     print("happy")
+# elif happy == 0 and sad == 0:
+#     print("none")
+# elif happy == sad:
+#     print("unsure")
 
 
 
