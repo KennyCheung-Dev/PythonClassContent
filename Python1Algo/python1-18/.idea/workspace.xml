@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2505b1f-c63d-4172-a6e7-6c1a010d8b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../python1-15/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python1-14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-14/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python1-17/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-16/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python1-15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python3/Python3-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/Python3-5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python3/python3-6/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-6/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python1-15/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-15/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python1-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

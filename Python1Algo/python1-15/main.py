@@ -165,13 +165,92 @@ No Deal
 # sad
 
 
+#---------------------------------------------------------------------------------------------------
+# 音乐播放器 只能容纳 5首曲子
+# ["A", "B", "C", "D", "E"]
+#按键1：
+# 把第一首 换到最后
+#按键2：
+# 把最后一首 换到头
+#按键3：
+# 把头两首曲子 互换
+#按键4：
+# 输出歌单
+
+# 输入：
+# 按键： 2
+# 次数： 5
+# 按键： 2
+# 次数： 1
+# 按键： 4
+# 次数： n
+# Ouput:
+# B C D A E
+
+# 两种方法 一种是用列表 一种是用文字格式
+
+# li = ["A", "B", "C", "D", "E"]
+li = "ABCDE"
+
+def Button1(times):
+    global li
+    for i in range(times):
+        li = li[1:] + li[0]
+
+def Button2(times):
+    global li
+    for i in range(times):
+        li = li[-1] + li[0:-1]
+
+def Button3(times):
+    global li
+    for i in range(times):
+        li = li[1] + li[0] + li[2:]
+
+def Button4():
+    for song in li:
+        print(song, end=" ")
+
+while True:
+    a = int(input("按键？"))
+    b = int(input("次数？"))
+    if a == 1:
+        Button1(b)
+    if a == 2:
+        Button2(b)
+    if a == 3:
+        Button3(b)
+    if a == 4:
+        Button4()
+        break
 
 
 
+# B C D A E
+# ['b', 'c'  XXXXX
+
+# -------------------------------------------------------------
+# CCC 2011 J3
+
+# Sumac Sequence
+
+# 作业：
+# 120 71，49，22，27
+# t(n) = t(n-2) - t(n-1)
+
+# -8 -12 4 -16 20 -4 24 -28 52
+
+# 提供的条件：
+# 提供了 头两个数字
+# 把剩下的数字都写出来
+
+# 停止的条件：
+# 数列结束在 t(n) if t(n-1) < t(n)
+
+# 输出 不限制 只要把数列 完整的print出来 就好了
 
 
-
-
+#
 
 
 

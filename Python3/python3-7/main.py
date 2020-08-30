@@ -248,7 +248,7 @@ g_cat_to_remove  = ["AUTO_AND_VEHICLES", "HOUSE_AND_HOME",
                     "FAMILY", "DATING", "LIBRARIES_AND_DEMO",
                     "PERSONALIZATION", "1.9"]
 for cat in g_cat_to_remove:
-    g_data  = g_data[g_data["cateogrory"] != cat]
+    g_data  = g_data[g_data["category"] != cat]
 a_data = a_data[a_data["category"] != "Catalogs"] # Only one to remove from apple's side
 
 # Step 4: Rename all categories... hard work
@@ -283,3 +283,56 @@ a_data = a_data.replace(a_cat_dict)
 
 # :3 Have Fun!
 
+
+# Get some basic statistics about our data
+print(g_data.describe())
+print(a_data.describe())
+
+# for i in g_data["price"]:
+#     print(i)
+
+# Seems like  the "price" column contains the "$" sign
+# whenever there is values
+
+# We can also check with df.dtypes (data types)
+# print(g_data.dtypes)
+
+
+# We can check with the unique values by series.unique()
+# print(g_data["price"].unique())
+# "$" sign is the only one we need to remove
+
+# Replace strings
+# Series.str.replace()
+g_data["price"] = g_data["price"].str.replace("$", "")
+# print(g_data["price"].unique())
+
+# Now price would be a numeric column
+# But..
+# print(g_data.dtypes) # hey, price is still "object"
+# We need to change its datatype by
+# df.astype()
+g_data = g_data.astype({"price": "float64"})
+# print(g_data.dtypes)
+# It worked! "price is now float64
+
+# Practise: Convert "rating_count" column
+# to an appropriate numeric type
+# Hint : "rating_count" doesn't contain any non-numeric strings!
+
+# Step1: Determine the best type for the column
+# answer: "int64"
+# Step2: use df.astype()
+g_data = g_data.astype({"rating_count": "int64"})
+# print(g_data.dtypes)
+# Practice2: Convert the "installs" column
+# We will find that there will be "+" like "10,000+
+# and also the "," between the numbers
+g_data["installs"] = g_data["installs"].str.replace("+", "").str.replace(",", "")
+# print(g_data.installs.unique())
+# Convert
+g_data = g_data.astype({"installs": "int64"})
+# print(g_data.dtypes)
+
+# Now let's look at the base stat again!
+print(g_data.describe())
