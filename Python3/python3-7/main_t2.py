@@ -171,19 +171,35 @@ a_data = a_data.replace(a_cat_dict)
 # print(a_data["category"].unique())
 
 # Get some basic statistics about our data
-print(g_data.describe())
-print(a_data.describe())
+# print(g_data.describe())
+# print(a_data.describe())
 
 
 
 
 
 g_data["price"] = g_data["price"].str.replace("$", "")
+g_data["installs"] = g_data["installs"].str.replace("+", "")
+g_data["installs"] = g_data["installs"].str.replace(",", "")
 
-print(g_data["price"].unique())
+g_data =  g_data.astype({"price" : "float64",
+                         "rating_count" : "int64",
+                         "installs" : "int64"})
 
-print(g_data.dtypes)
-print(a_data.dtypes)
+# print(g_data["rating_count"].unique())
+# print(g_data["installs"].unique())
+
+# print(g_data.dtypes)
+# print(a_data.dtypes)
+
+print(g_data.describe())
+
+g_data.to_csv('g_data_revised.csv')
+a_data.to_csv('a_data_revised.csv')
+g_reviews.to_csv('g_reviews_revised.csv')
+
+
+
 
 
 # Clean Up Requirements:
@@ -193,6 +209,8 @@ print(a_data.dtypes)
 # Remove all the columns  that you don't need
 # If you hae two datasets working together, unify their column names
 #
+
+
 
 
 

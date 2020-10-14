@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cf7f09-9ab2-4ffe-8d64-ad921c972a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1-16/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python1-17/main_t1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-16/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python3/python3-7/Task_t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python3/python3-7/Task_t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/CCC3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/main_t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC3/main_t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC4/2015J3_Rovarspraket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/Chapter1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter1/Chapter1_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/Chapter2/.idea/Chapter2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python1-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python1-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python1-17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/Task1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/Task1-3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python3/python3-7/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/python3-7/main_t2.py" afterDir="false" />
     </list>

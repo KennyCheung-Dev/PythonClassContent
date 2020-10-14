@@ -180,18 +180,34 @@ a_data = a_data.replace(a_cat_dict)
 
 # Replace strings by: Series.str.replace()
 g_data["price"] = g_data["price"].str.replace("$", "")
+g_data["installs"] = g_data["installs"].str.replace("+", "")
+g_data["installs"] = g_data["installs"].str.replace(",", "")
 
 # Still object?
 # Have to actually transfer the data types
 # using df.astype()
 g_data = g_data.astype({"price": "float64"})
 
-print(g_data.dtypes)
-print(g_data["price"].unique())
+# print(g_data.dtypes)
+# print(g_data["price"].unique())
 
 # print(g_data.describe())
 
 # Homework:
 # Convert the datatype for "rating_count" and "installs"
 
+g_data = g_data.astype({"rating_count": "int64"})
+g_data = g_data.astype({"installs": "int64"})
+
+# print(g_data.dtypes)
+# print(a_data.dtypes)
+
+
+# ----------------------------------------------------------------------
+
+# Graphing!
+# First, export the data
+g_data.to_csv('g_data_revised.csv')
+g_reviews.to_csv('g_reviews_revised.csv')
+a_data.to_csv('a_data_revised.csv')
 

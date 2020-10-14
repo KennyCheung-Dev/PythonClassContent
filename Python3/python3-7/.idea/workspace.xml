@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f4de33-e486-4d1b-996a-f897b549b831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/1-16/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Python1Algo/python1-17/main_t1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_data_revised.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/g_data_revised.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/g_reviews_revised.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/1-16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/1-16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-15/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-15/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python1Algo/python1-18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python1Algo/python1-18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_t2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task1-3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_t1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_t2.py" afterDir="false" />
     </list>
@@ -56,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task1-3">
+  <component name="RunManager" selected="Python.Task_t2">
     <configuration name="Task1-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python3-7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +69,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Task_t1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python3-7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Task_t2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python3-7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_t2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python3-7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,27 +124,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_t1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python3-7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_t1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,10 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task_t2" />
+        <item itemvalue="Python.Task_t1" />
         <item itemvalue="Python.Task1-3" />
-        <item itemvalue="Python.main_t2" />
-        <item itemvalue="Python.main_t1" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main_t2" />
       </list>
     </recent_temporary>
   </component>
@@ -179,34 +192,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597605161086">
+    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599092791537">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1597605161086" />
-    <state width="1419" height="327" key="GridCell.Tab.0.bottom" timestamp="1598761740677">
+    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1599092791537" />
+    <state width="1419" height="201" key="GridCell.Tab.0.bottom" timestamp="1600028420750">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="327" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598761740677" />
-    <state width="1419" height="327" key="GridCell.Tab.0.center" timestamp="1598761740676">
+    <state width="1419" height="201" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1600028420750" />
+    <state width="1419" height="201" key="GridCell.Tab.0.center" timestamp="1600028420749">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="327" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598761740676" />
-    <state width="1419" height="327" key="GridCell.Tab.0.left" timestamp="1598761740676">
+    <state width="1419" height="201" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1600028420749" />
+    <state width="1419" height="201" key="GridCell.Tab.0.left" timestamp="1600028420749">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="327" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598761740676" />
-    <state width="1419" height="327" key="GridCell.Tab.0.right" timestamp="1598761740677">
+    <state width="1419" height="201" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1600028420749" />
+    <state width="1419" height="201" key="GridCell.Tab.0.right" timestamp="1600028420750">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="327" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598761740677" />
+    <state width="1419" height="201" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1600028420750" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1598739564338">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598739564338" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598743241265">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599698980491">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598743241265" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599698980491" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

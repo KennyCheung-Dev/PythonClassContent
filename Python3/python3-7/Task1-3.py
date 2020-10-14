@@ -253,15 +253,16 @@ g_data_paid.plot.scatter(x="price", y="rating_count", logy=True, xlim=[0, 50], y
 a_data_paid.plot.scatter(x="price", y="rating_count", logy=True, xlim=[0, 50], ylim=[1, 10000000])
 
 
-# -----------------------------------------------------------------
+# -----------------------------------------------------------------.,
+
 # If the app hasn't been updated for a while, does that affect the rating?
-b = pd.to_datetime(g_data["last_updated"])
-g_data["last_updated"] = b
+# b = pd.to_datetime(g_data["last_updated"])
+# g_data["last_updated"] = b
 # Before : January 7, 2018   After: 2018-01-07   a  format that pd can work with
 
 # Resample allow us to group time into period length
 # 2Q means two-quater, which means half year
-g_data_6 = g_data.resample('2Q', on='last_updated').agg({"rating":np.mean})
+# g_data_6 = g_data.resample('2Q', on='last_updated').agg({"rating":np.mean})
 
 
 # Show all plots

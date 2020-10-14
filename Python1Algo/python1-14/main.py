@@ -224,7 +224,7 @@ def Rovarspraket(text):
             newText += letter # Add the vowel back
     return newText
 
-print(Rovarspraket(""))
+print(Rovarspraket("yuzuzuz"))
 
 #-----------------------------------------------------------------
 
