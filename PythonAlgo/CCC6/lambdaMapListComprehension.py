@@ -30,8 +30,6 @@ start_time = time.time()
 #     result += i
 
 # Second way: "".join
-# result = "".join(li2)
+result = "".join(li2)
 
 print("--- %s seconds ---" % (time.time() - start_time))
-
-# print(result)
