@@ -8,7 +8,7 @@
 *****
 '''
 
-[print("*" * j) for j in range(1, 6)]
+# [print("*" * j) for j in range(1, 6)]
 
 '''
 Print the multiplication table:
@@ -19,12 +19,12 @@ Print the multiplication table:
 
 # [[print("{} * {} = {}".format(i, j, i*j)) for j in range(1, 10)] for i in range(1, 10)]
 
-for i in range(1, 10):
-    for j in range(1, 10):
-        print("{} * {} = {}".format(i, j, i*j), end = "")
-        if j != 9:
-            print(" | ", end = "")
-        else:
-            print()
+# for i in range(1, 10):
+#     for j in range(1, 10):
+#         print("{} * {} = {}".format(i, j, i*j), end = "")
+#         if j != 9:
+#             print(" | ", end = "")
+#         else:
+#             print()
 
 
