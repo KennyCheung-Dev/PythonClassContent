@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="294da2b9-940f-4469-b180-85b0c384b16c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
+    <list default="true" id="ea65b2c7-5a23-4ce5-945b-f776282fa838" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CCC2013J3_Punchy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2017J3_ExactlyElectrical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2019J2_TimeToDecompress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2019J3_ColdCompress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC10/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/Temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1kUF3dbbmXC4Mh9imQyDhHKS8AG" />
+  <component name="ProjectId" id="1kvzCe2BoO2UGjzeBjGdqeXJy4L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,11 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.Temp">
-    <configuration name="CCC2004J4_SimpleEncryption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC10" />
+  <component name="RunManager" selected="Python.CCC2013J3_Punchy">
+    <configuration name="CCC2013J3_Punchy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -44,7 +48,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2004J4_SimpleEncryption.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2013J3_Punchy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,8 +57,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2008J3_GPSTextEntry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC10" />
+    <configuration name="CCC2016J3_HiddenPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -65,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2008J3_GPSTextEntry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,8 +78,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2014J3_DoubleDice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC10" />
+    <configuration name="CCC2017J3_ExactlyElectrical" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,7 +90,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2014J3_DoubleDice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2017J3_ExactlyElectrical.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,8 +99,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC10" />
+    <configuration name="CCC2019J2_TimeToDecompress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -107,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2019J2_TimeToDecompress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,8 +120,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC10" />
+    <configuration name="CCC2019J3_ColdCompress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2019J3_ColdCompress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Temp" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.CCC2004J4_SimpleEncryption" />
-        <item itemvalue="Python.CCC2008J3_GPSTextEntry" />
-        <item itemvalue="Python.CCC2014J3_DoubleDice" />
+        <item itemvalue="Python.CCC2013J3_Punchy" />
+        <item itemvalue="Python.CCC2019J3_ColdCompress" />
+        <item itemvalue="Python.CCC2019J2_TimeToDecompress" />
+        <item itemvalue="Python.CCC2017J3_ExactlyElectrical" />
+        <item itemvalue="Python.CCC2016J3_HiddenPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -164,38 +168,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="294da2b9-940f-4469-b180-85b0c384b16c" name="Default Changelist" comment="" />
-      <created>1605747064711</created>
+      <changelist id="ea65b2c7-5a23-4ce5-945b-f776282fa838" name="Default Changelist" comment="" />
+      <created>1606595727088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605747064711</updated>
+      <updated>1606595727088</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="149" key="GridCell.Tab.0.bottom" timestamp="1606441707821">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1606636410499">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="149" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606441707821" />
-    <state width="1419" height="149" key="GridCell.Tab.0.center" timestamp="1606441707820">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606636410499" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1606636410498">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="149" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606441707820" />
-    <state width="1419" height="149" key="GridCell.Tab.0.left" timestamp="1606441707820">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606636410498" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1606636410498">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="149" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606441707820" />
-    <state width="1419" height="149" key="GridCell.Tab.0.right" timestamp="1606441707821">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606636410498" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1606636410499">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="149" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606441707821" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1606015219094">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606015219094" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606015841047">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606015841047" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606636410499" />
   </component>
 </project>
