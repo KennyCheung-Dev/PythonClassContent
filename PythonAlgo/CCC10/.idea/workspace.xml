@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="294da2b9-940f-4469-b180-85b0c384b16c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CCC11/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2005J2_RSANumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2005J2_RSANumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2008J3_GPSTextEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2008J3_GPSTextEntry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2014J3_DoubleDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2014J3_DoubleDice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC11/CCC2013J3_Punchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC11/CCC2013J3_Punchy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC11/CCC2016J3_HiddenPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC11/CCC2016J3_HiddenPalindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

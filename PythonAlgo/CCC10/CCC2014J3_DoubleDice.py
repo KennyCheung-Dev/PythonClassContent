@@ -9,3 +9,12 @@ for i in range(int(input())):
         b -= c
 print(a)
 print(b)
+
+# 4
+# 5 6
+# 6 6
+# 4 3
+# 5 2
+
+# 94
+# 91

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea65b2c7-5a23-4ce5-945b-f776282fa838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CCC2013J3_Punchy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2017J3_ExactlyElectrical.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2019J2_TimeToDecompress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2019J3_ColdCompress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC10/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/Temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC10/CCC2005J2_RSANumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/CCC2005J2_RSANumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC10/CCC2008J3_GPSTextEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/CCC2008J3_GPSTextEntry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC10/CCC2014J3_DoubleDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC10/CCC2014J3_DoubleDice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2013J3_Punchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2013J3_Punchy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.CCC2013J3_Punchy">
+  <component name="RunManager" selected="Python.temp">
     <configuration name="CCC2013J3_Punchy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,27 +71,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2016J3_HiddenPalindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CCC2017J3_ExactlyElectrical" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC11" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2017J3_ExactlyElectrical.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,13 +121,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.CCC2013J3_Punchy" />
+        <item itemvalue="Python.CCC2016J3_HiddenPalindrome" />
         <item itemvalue="Python.CCC2019J3_ColdCompress" />
         <item itemvalue="Python.CCC2019J2_TimeToDecompress" />
-        <item itemvalue="Python.CCC2017J3_ExactlyElectrical" />
-        <item itemvalue="Python.CCC2016J3_HiddenPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -177,25 +178,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1606636410499">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1606978147902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606636410499" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1606636410498">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606978147902" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1606978147901">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606636410498" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1606636410498">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606978147901" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1606978147901">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606636410498" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1606636410499">
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606978147901" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1606978147902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606636410499" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606978147902" />
   </component>
 </project>
