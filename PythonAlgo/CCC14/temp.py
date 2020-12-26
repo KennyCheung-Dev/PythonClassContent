@@ -23,18 +23,3 @@ for i in range(int(input())):
         if len(result) == 3 or len(result) == 7:
             result += "-"
     print(result[0:12])
-
-
-
-
-
-
-
-
-# if "A" in dict1:
-
-# dict1.get("A")
-
-
-
-

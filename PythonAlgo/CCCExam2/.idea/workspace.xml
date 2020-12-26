@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d86c3ff0-4428-4f53-b07b-fc1d9aa10ff7" name="Default Changelist" comment="">
+    <list default="true" id="82129a03-2069-4b1c-95cf-14a0c4ba2ac7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../CCC14/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC14/temp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC14/CCC2005S1_SnowCalls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC14/CCC2005S1_SnowCalls.py" afterDir="false" />
     </list>
@@ -22,10 +23,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ladg0qaedTxAxtF3ZpDqX0T6V5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1mCvOd2MYYNI4qcF57UrQlgBLop" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,10 +32,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.CCC2017S2_LowTideHighTide">
-    <configuration name="CCC2002S1_TheStudentsCouncilBreakfast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC13" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Simplified_TheLostCow">
+    <configuration name="Beautiful Paintings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCCExam2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -47,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2002S1_TheStudentsCouncilBreakfast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Beautiful Paintings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,8 +64,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2004S1_Fix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC13" />
+    <configuration name="Simplified_BeautifulPainting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCCExam2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -68,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2004S1_Fix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simplified_BeautifulPainting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +85,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2016J3_CellphoneMessaging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC13" />
+    <configuration name="Simplified_TheLostCow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCCExam2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -89,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2016J3_CellphoneMessaging.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simplified_TheLostCow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,8 +106,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2017S2_LowTideHighTide" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC13" />
+    <configuration name="card" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCCExam2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -110,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2017S2_LowTideHighTide.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/card.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,8 +127,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC13" />
+    <configuration name="card_method2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCCExam2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -131,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/card_method2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CCC2017S2_LowTideHighTide" />
-        <item itemvalue="Python.temp" />
-        <item itemvalue="Python.CCC2002S1_TheStudentsCouncilBreakfast" />
-        <item itemvalue="Python.CCC2004S1_Fix" />
-        <item itemvalue="Python.CCC2016J3_CellphoneMessaging" />
+        <item itemvalue="Python.Simplified_TheLostCow" />
+        <item itemvalue="Python.card_method2" />
+        <item itemvalue="Python.card" />
+        <item itemvalue="Python.Simplified_BeautifulPainting" />
+        <item itemvalue="Python.Beautiful Paintings" />
       </list>
     </recent_temporary>
   </component>
@@ -167,46 +175,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d86c3ff0-4428-4f53-b07b-fc1d9aa10ff7" name="Default Changelist" comment="" />
-      <created>1607839243660</created>
+      <changelist id="82129a03-2069-4b1c-95cf-14a0c4ba2ac7" name="Default Changelist" comment="" />
+      <created>1609010357377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607839243660</updated>
+      <updated>1609010357377</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="145" key="GridCell.Tab.0.bottom" timestamp="1607906827927">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1609020240381">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="145" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607906827927" />
-    <state width="1419" height="145" key="GridCell.Tab.0.center" timestamp="1607906827927">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1609020240381" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1609020240380">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="145" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607906827927" />
-    <state width="1419" height="145" key="GridCell.Tab.0.left" timestamp="1607906827926">
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1609020240380" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1609020240380">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="145" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607906827926" />
-    <state width="1419" height="145" key="GridCell.Tab.0.right" timestamp="1607906827927">
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1609020240380" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1609020240380">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="145" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607906827927" />
-    <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1607840496458">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1419" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607840496458" />
-    <state width="1419" height="285" key="GridCell.Tab.1.center" timestamp="1607840496457">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1419" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1607840496457" />
-    <state width="1419" height="285" key="GridCell.Tab.1.left" timestamp="1607840496456">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1419" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1607840496456" />
-    <state width="1419" height="285" key="GridCell.Tab.1.right" timestamp="1607840496457">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1419" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1607840496457" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1609020240380" />
   </component>
 </project>

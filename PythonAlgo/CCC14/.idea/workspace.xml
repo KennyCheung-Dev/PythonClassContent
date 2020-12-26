@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80148a8f-9423-41bd-ae99-66261dc754d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCC13/CCC2017S2_LowTideHighTide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC13/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2005S1_SnowCalls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2005S1_SnowCalls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.CCC2001S1_SnakesAndLadders">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.temp2">
     <configuration name="CCC2001S1_KeepingScore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC14" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,8 +102,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TEMP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC14" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEMP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC14" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp2" />
+        <item itemvalue="Python.TEMP" />
         <item itemvalue="Python.CCC2001S1_SnakesAndLadders" />
         <item itemvalue="Python.CCC2005S1_SnowCalls" />
         <item itemvalue="Python.CCC2001S1_KeepingScore" />
@@ -129,21 +180,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1608430013970">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1608751611119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608430013969" />
-    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1608430013969">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608751611119" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1608751611118">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608430013969" />
-    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1608430013968">
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608751611118" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1608751611117">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608430013968" />
-    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1608430013969">
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608751611117" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1608751611119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608430013969" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608751611119" />
   </component>
 </project>
