@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5247c2e6-239d-4227-a04f-5d2a6549a882" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CCC16/CCC2001S2_Spiral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/CCC2007S2_FederalVotingAge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/CCC2008S1_ItsColdHere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/CCC2009S1_CoolNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/Factorio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/FibonacciSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC16/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CCC17.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mr1q4BOZlq4KaXBuydQjCOIvu0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5247c2e6-239d-4227-a04f-5d2a6549a882" name="Default Changelist" comment="" />
+      <created>1610237082063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610237082063</updated>
+    </task>
+    <servers />
+  </component>
+</project>

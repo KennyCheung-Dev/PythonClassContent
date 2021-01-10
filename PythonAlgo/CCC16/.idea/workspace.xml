@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0b48c2-8828-4e84-a341-4c470cfce54e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCCExam2/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCCExam2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCCExam2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2001S2_Spiral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2007S2_FederalVotingAge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2008S1_ItsColdHere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC2009S1_CoolNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factorio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FibonacciSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/.idea/CCC17.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python.CCC2006S1_Maternity">
-    <configuration name="CCC2002S2_BabblingBrooks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CCC2009S1_CoolNumbers">
+    <configuration name="CCC2001S2_Spiral" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2002S2_BabblingBrooks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2001S2_Spiral.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2002S2_FractionAction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CCC2007S2_FederalVotingAge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2002S2_FractionAction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2007S2_FederalVotingAge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2006S1_Maternity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CCC2008S1_ItsColdHere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2006S1_Maternity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2008S1_ItsColdHere.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2012S1_DontPassMeTheBall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CCC2009S1_CoolNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2012S1_DontPassMeTheBall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2009S1_CoolNumbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2017S2_HighTideLowTide" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2017S2_HighTideLowTide.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CCC2006S1_Maternity" />
-        <item itemvalue="Python.CCC2012S1_DontPassMeTheBall" />
-        <item itemvalue="Python.CCC2002S2_FractionAction" />
-        <item itemvalue="Python.CCC2002S2_BabblingBrooks" />
-        <item itemvalue="Python.CCC2017S2_HighTideLowTide" />
+        <item itemvalue="Python.CCC2009S1_CoolNumbers" />
+        <item itemvalue="Python.CCC2008S1_ItsColdHere" />
+        <item itemvalue="Python.CCC2007S2_FederalVotingAge" />
+        <item itemvalue="Python.CCC2001S2_Spiral" />
+        <item itemvalue="Python.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +181,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="285" key="GridCell.Tab.0.bottom" timestamp="1609637701776">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1610247124677">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1609637701776" />
-    <state width="1419" height="285" key="GridCell.Tab.0.center" timestamp="1609637701776">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1610247124677" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1610247124677">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1609637701776" />
-    <state width="1419" height="285" key="GridCell.Tab.0.left" timestamp="1609637701775">
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1610247124677" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1610247124677">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1609637701775" />
-    <state width="1419" height="285" key="GridCell.Tab.0.right" timestamp="1609637701776">
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1610247124677" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1610247124677">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1609637701776" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1610247124677" />
     <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1609637701778">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
