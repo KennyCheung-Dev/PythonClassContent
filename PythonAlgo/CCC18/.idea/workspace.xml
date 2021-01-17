@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80148a8f-9423-41bd-ae99-66261dc754d1" name="Default Changelist" comment="">
+    <list default="true" id="aa7a5657-374b-44f4-ab0d-a0092544114c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../CCC17/CCC2001S2_Spiral.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CCC17/CCC2007S2_FederalVotingAge.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CCC17/CCC2008S1_ItsColdHere.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CCC17/CCC2009S1_CoolNumbers.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CCC17/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ltp1uY4igD3zqjTJIuXRbZI0ZV" />
+  <component name="ProjectId" id="1nAtQolofodRs6AZKD7j5BinHdT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,15 +35,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.temp2">
-    <configuration name="CCC2001S1_KeepingScore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC14" />
+  <component name="RunManager" selected="Python.CCC2010S1_ComputerPurchase">
+    <configuration name="CCC2003S2_Poetry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -54,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2001S1_KeepingScore.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2003S2_Poetry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,8 +64,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2001S1_SnakesAndLadders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC14" />
+    <configuration name="CCC2004S2_TopYodeller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2001S1_SnakesAndLadders.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2004S2_TopYodeller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,8 +85,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CCC2005S1_SnowCalls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC14" />
+    <configuration name="CCC2010S1_ComputerPurchase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,49 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2005S1_SnowCalls.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TEMP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC14" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEMP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="temp2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC14" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2010S1_ComputerPurchase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.temp2" />
-        <item itemvalue="Python.TEMP" />
-        <item itemvalue="Python.CCC2001S1_SnakesAndLadders" />
-        <item itemvalue="Python.CCC2005S1_SnowCalls" />
-        <item itemvalue="Python.CCC2001S1_KeepingScore" />
+        <item itemvalue="Python.CCC2010S1_ComputerPurchase" />
+        <item itemvalue="Python.CCC2004S2_TopYodeller" />
+        <item itemvalue="Python.CCC2003S2_Poetry" />
       </list>
     </recent_temporary>
   </component>
@@ -174,30 +131,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80148a8f-9423-41bd-ae99-66261dc754d1" name="Default Changelist" comment="" />
-      <created>1608426030563</created>
+      <changelist id="aa7a5657-374b-44f4-ab0d-a0092544114c" name="Default Changelist" comment="" />
+      <created>1610844709086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608426030563</updated>
+      <updated>1610844709086</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1608751611119">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1610879110174">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608751611119" />
-    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1608751611118">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1610879110174" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1610879110173">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608751611118" />
-    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1608751611117">
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1610879110173" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1610879110173">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608751611117" />
-    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1608751611119">
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1610879110173" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1610879110174">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608751611119" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1610879110174" />
   </component>
 </project>

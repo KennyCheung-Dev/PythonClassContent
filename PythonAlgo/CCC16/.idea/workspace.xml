@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0b48c2-8828-4e84-a341-4c470cfce54e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CCC2001S2_Spiral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2007S2_FederalVotingAge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2008S1_ItsColdHere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC2009S1_CoolNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factorio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FibonacciSequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC17/.idea/CCC17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2001S2_Spiral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2007S2_FederalVotingAge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2008S1_ItsColdHere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2009S1_CoolNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC17/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
