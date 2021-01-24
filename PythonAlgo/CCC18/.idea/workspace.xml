@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7a5657-374b-44f4-ab0d-a0092544114c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2001S2_Spiral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2007S2_FederalVotingAge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2008S1_ItsColdHere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC17/CCC2009S1_CoolNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC17/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC17/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftwareEngineering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2010S1_ComputerPurchase.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2010S1_ComputerPurchase.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CCC2010S1_ComputerPurchase">
-    <configuration name="CCC2003S2_Poetry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC18" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2003S2_Poetry.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Rope">
     <configuration name="CCC2004S2_TopYodeller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC18" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +82,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Rope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SoftwareEngineering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftwareEngineering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Rope" />
+        <item itemvalue="Python.SoftwareEngineering" />
+        <item itemvalue="Python.tmep" />
         <item itemvalue="Python.CCC2010S1_ComputerPurchase" />
         <item itemvalue="Python.CCC2004S2_TopYodeller" />
-        <item itemvalue="Python.CCC2003S2_Poetry" />
       </list>
     </recent_temporary>
   </component>
@@ -140,21 +181,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1610879110174">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="82" key="GridCell.Tab.0.bottom" timestamp="1611221458079">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1610879110174" />
-    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1610879110173">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="82" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611221458079" />
+    <state width="1110" height="116" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611195026443" />
+    <state width="1419" height="82" key="GridCell.Tab.0.center" timestamp="1611221458078">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1610879110173" />
-    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1610879110173">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="82" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611221458078" />
+    <state width="1110" height="116" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611195026442" />
+    <state width="1419" height="82" key="GridCell.Tab.0.left" timestamp="1611221458077">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1610879110173" />
-    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1610879110174">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="82" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611221458077" />
+    <state width="1110" height="116" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611195026442" />
+    <state width="1419" height="82" key="GridCell.Tab.0.right" timestamp="1611221458078">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1610879110174" />
+    <state width="1419" height="82" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611221458078" />
+    <state width="1110" height="116" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611195026442" />
   </component>
 </project>
