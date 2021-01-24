@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9105f588-6e90-424b-bb9c-cc253ca3317c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC18/Rope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC18/SoftwareEngineering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC18/tmep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC18/CCC2010S1_ComputerPurchase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC18/CCC2010S1_ComputerPurchase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CCC19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2003S2_Poetry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2004S2_TopYodeller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2006S1_Maternity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2007S2_FederalVotingAge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2009S1_CoolNumbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2010J4_GlobalWarming.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2010S1_ComputerPurchase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2011S1_EnglishOrFrench.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2013S1_From1987to2013.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
