@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="472ee9a5-396c-49e9-8627-e3d0715fdfc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC19/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC19/.idea/CCC19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC19/.idea/CCC19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC19/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC20/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC20/temp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC20/temp3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAlgo/CCC20/CCC2011J4_BoringBusiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonAlgo/CCC20/CCC2011J4_BoringBusiness.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

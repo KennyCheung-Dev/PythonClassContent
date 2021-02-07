@@ -53,12 +53,3 @@ while True:
     if not safe:
         break
 
-
-
-
-
-
-
-
-
-

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115ed8db-bcf0-4945-b64b-ffe6e60f8721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCC19/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC19/.idea/CCC19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC19/.idea/CCC19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC19/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Danny/Danny2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Danny/Danny2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC2011J4_BoringBusiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2011J4_BoringBusiness.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,29 +35,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="RunManager" selected="Python.CCC2015S1_ZeroThatOut">
-    <configuration name="CCC2011J4_BoringBusiness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCC20" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC2011J4_BoringBusiness.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../../.." />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.temp3">
     <configuration name="CCC2014S1_PartyInviation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC20" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +85,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CCC20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp3" />
+        <item itemvalue="Python.temp2" />
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.CCC2015S1_ZeroThatOut" />
         <item itemvalue="Python.CCC2014S1_PartyInviation" />
-        <item itemvalue="Python.CCC2011J4_BoringBusiness" />
       </list>
     </recent_temporary>
   </component>
@@ -129,21 +184,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1612050783773">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1612418532441">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612050783773" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1612050783772">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612125114003" />
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1612418532441" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1612418532441">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612050783772" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1612050783771">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612125114002" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1612418532441" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1612418532440">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612050783771" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1612050783772">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612125114001" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1612418532440" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1612418532441">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612050783772" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612125114003" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1612418532441" />
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1612418532431">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1612418532431" />
+    <state width="1419" height="285" key="GridCell.Tab.1.center" timestamp="1612418532430">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1612418532430" />
+    <state width="1419" height="285" key="GridCell.Tab.1.left" timestamp="1612418532430">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1612418532430" />
+    <state width="1419" height="285" key="GridCell.Tab.1.right" timestamp="1612418532431">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1612418532431" />
   </component>
 </project>
