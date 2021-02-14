@@ -1,10 +1,11 @@
-rules = {}
-rulesNum = {}
+rules = {}  # "AB" : "ABC"
+rulesNum = {}  #"AB" : 2
+
+
 for i in range(3):
     line = input().split(" ")
     rules[line[0]] = line[1]
     rulesNum[line[0]] = i + 1
-
 line = input().split(" ")
 steps = int(line[0])
 start = line[1]
@@ -22,6 +23,7 @@ def RecurSub(start, currentCycle, accumulatingStep):
                 next = start[0:i] + rules.get(start[i:j]) + start[j:len(start)]
                 newAccumulatingStep = accumulatingStep.copy()
                 newAccumulatingStep.append([str(rulesNum.get(start[i:j])), str(i + 1), next])
+                # [1, 2, "ABDDD"]
                 if next == end:
                     if currentCycle == steps:
                         found = True

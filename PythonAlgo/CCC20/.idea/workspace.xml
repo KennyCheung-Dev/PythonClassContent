@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115ed8db-bcf0-4945-b64b-ffe6e60f8721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCC21/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Danny/Danny2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Danny/Danny2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2010J4_GlobalWarming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2014S1_PartyInvitation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2015S1_ZerothatOut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC21/CCC2016J1_TourmentSelection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC22/CCC2015J5_PiDay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCC22/CCC2015J5_PiDay_Memorized.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CCC2011J4_BoringBusiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC2011J4_BoringBusiness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC21/CCC2019J5_RuleOfThree_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCC21/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC21/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

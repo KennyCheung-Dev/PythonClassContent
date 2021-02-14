@@ -1,4 +1,4 @@
-rules = []
+rules = [] # ["AB", "ABB"],
 rulesReversed = []
 
 for i in range(3):
