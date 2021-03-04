@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea65b2c7-5a23-4ce5-945b-f776282fa838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCC12/CCC2019J3-ColdCompress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="RunManager" selected="Python.temp">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../../.." />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CCC2019J3_ColdCompress">
     <configuration name="CCC2013J3_Punchy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCC11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CCC2019J3_ColdCompress" />
         <item itemvalue="Python.temp" />
         <item itemvalue="Python.CCC2013J3_Punchy" />
         <item itemvalue="Python.CCC2016J3_HiddenPalindrome" />
-        <item itemvalue="Python.CCC2019J3_ColdCompress" />
         <item itemvalue="Python.CCC2019J2_TimeToDecompress" />
       </list>
     </recent_temporary>
@@ -172,25 +177,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1606978147902">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1613326505681">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606978147902" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1606978147901">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1613326505681" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1613326505679">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606978147901" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1606978147901">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1613326505679" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1613326505679">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606632493794" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606978147901" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1606978147902">
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1613326505679" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1613326505681">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606632493795" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606978147902" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1613326505681" />
   </component>
 </project>
