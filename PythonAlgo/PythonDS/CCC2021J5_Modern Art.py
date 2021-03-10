@@ -18,3 +18,20 @@ for i in range(row):
             count += 1
 
 print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

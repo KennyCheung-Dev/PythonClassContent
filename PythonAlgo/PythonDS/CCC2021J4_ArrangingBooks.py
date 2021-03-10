@@ -25,8 +25,3 @@ for i in range(len(line)):
 # print(StoM, MtoS, StoL, LtoS, MtoL, LtoM)
 
 print(min(StoM, MtoS) + min(StoL, LtoS) + min(MtoL, LtoM) + (abs(StoM - MtoS) * 2))
-
-
-
-
-

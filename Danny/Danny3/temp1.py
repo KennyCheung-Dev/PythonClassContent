@@ -1,12 +1,8 @@
+line = input()
 
-x = []
-
-def Calc(num):
-    num.append(2500)
-
-Calc(x.copy())
-
-print(x)
+list = list(line)
+list.sort()
 
 
-
+print(line)
+print(list)
