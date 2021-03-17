@@ -1,13 +1,16 @@
 row = int(input())
 col = int(input())
 
-R = [0] * row
-C = [0] * col
+R = [0] * row  #[0, 0, 0, 0]
+C = [0] * col  #[0, 0, 0, 0]
 
 for i in range(int(input())):
-    line = input().split(" ")
+    line = input().split(" ") # R 2
     if line[0] == "R":
-        R[int(line[1]) - 1] += 1
+        lineNum = line[1]
+        intCasted = int(lineNum)
+        machineIndex = intCasted - 1
+        R[machineIndex] += 1
     elif line[0] == "C":
         C[int(line[1]) - 1] += 1
 
