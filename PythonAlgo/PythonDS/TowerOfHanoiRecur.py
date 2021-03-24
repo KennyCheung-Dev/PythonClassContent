@@ -1,3 +1,23 @@
+# Hanoi Tower
+# Input: number of plates
+# Output: All the steps to move the plates
+
+'''
+
+Input:
+3
+
+Output:
+1 A B
+2 A C
+1 B C
+3 A B
+1 C A
+2 C B
+1 A B
+
+'''
+
 from copy import deepcopy
 
 towers = [[], [], []]

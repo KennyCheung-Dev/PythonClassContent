@@ -7,6 +7,13 @@
 # 108 % 21 = [3]
 # 21 % 3 = 0
 
+'''
+Input:
+3768 1701
+Output:
+3
+'''
+
 def GCDRecur(quotient, remainder):
     if remainder == 0:
         return quotient

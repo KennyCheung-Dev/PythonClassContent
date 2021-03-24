@@ -14,10 +14,40 @@
 Example:
 Input
 1
+7 3
 
 Output:
-7 3
+8
+
 '''
+
+
+'''
+combinations = []
+
+Method(applesLeft, platesLeft, distribution):
+    if platesLeft = 1:
+        Check if your final combinations has already been considered
+        If its viable:
+            return 1
+        else
+            return 0
+    else:
+        Recursively continue counting subsequent combinations
+        Lets say you are at 2/4 slots
+        For every possible 3rd slot option,
+        You need to recursively count THEIR subsequent 
+        number of combinations that works
+        
+        count = 0
+        for i in range(MaxPossibleApple):
+            count += Method(appleLeft - i, platesLeft - 1, distribution)
+        return count
+'''
+
+
+
+
 
 
 dict = []
@@ -44,3 +74,38 @@ def PuttingApplesRecur(applesLeft, platesLeft, distribution):
 for i in range(int(input())):
     test = input().split(" ")
     print(PuttingApplesRecur(int(test[0]), int(test[1]), []))
+
+print(dict)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

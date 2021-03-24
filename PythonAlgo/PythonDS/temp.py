@@ -1,77 +1,54 @@
-'''
-1. Given a string, return a string where for every character
-in the original, there are two characters
+passedCoords = [
+    [0, -1],
+    [0, -2],
+    [0, -3],
+    [1, -3],
+    [2, -3],
+    [3, -3],
+    [3, -4],
+    [3, -5],
+    [4, -5],
+    [5, -5],
+    [5, -4],
+    [5, -3],
+    [6, -3],
+    [7, -3],
+    [7, -4],
+    [7, -5],
+    [7, -6],
+    [7, -7],
+    [6, -7],
+    [5, -7],
+    [4, -7],
+    [3, -7],
+    [2, -7],
+    [1, -7],
+    [0, -7],
+    [-1, -7],
+    [-1, -6],
+    [-1, -5]
+]
 
-double_char('The') -> 'TThhee'
-double_char('AAbb') -> 'AAAAbbbb'
-double_char('Hi-There') -> 'HHii--TThheerree'
+currentCoord = [-1, -5]
 
-#Answer
-def double_char(str):
-    result = ''
-    for i in str:
-        result += i * 2
-    return result
-
-2. Return the number of times that the string "hi" appears anywhere
-in the give nstring.
-
-count_hi('abc hi ho') -> 1
-count_hi('ABChi hi') -> 2
-count_hi('hihi') -> 2
-
-# Answer
-# def count_code(str):
-#     count = 0
-#     for char in 'abcdefghijklmnopqrstuvwxyz':
-#         count += str.count('co{}{}'.format(char, 'e'))
-#     return count
-
-
-3. Return The if the string "cat" and "dog" appear the same number of times
-in the given string.
-cat_dog('catdog') -> True
-cat_dog('catcat') -> False
-cat_dog('1cat1cadodog') -> True
-
-# Answer
-def cat_dog(str):
-    c = str.count('cat')
-    d = str.count('dog')
-    if c == d:
-        return True
-    else:
-        return False
-
-'''
-
-#Explanation to fString
-# num = 10
-# print("abc{}de".format(num))
-#
-# print(f'abc{10}de')
-
-
-# def convert_to_maderin(num):
-#     pass
-
-
-#Explanations on Dictionary
-num = {
-    '0' : 'ling',
-    '1' : 'yi',
-    '2' : 'er'
-}
-
-# Adding a key value pair into dict
-num['3'] = 'san'
-
-# Access a value with a key
-print(num['3'])
-
-# Loop through all keys and values inside
-for (key, value) in num.items(): #key value pairs
-    print(key + " " + value)
-
-
-
+safe = True
+while True:
+    line = input().split(" ")
+    if line[0] == "q":
+        break
+    for i in range(int(line[1])):
+        if line[0] == "u":
+            currentCoord[1] += 1
+        if line[0] == "d":
+            currentCoord[1] -= 1
+        if line[0] == "l":
+            currentCoord[0] -= 1
+        if line[0] == "r":
+            currentCoord[0] += 1
+        if currentCoord in passedCoords:
+            safe = False
+        else:
+            passedCoords.append(currentCoord.copy())
+    print(str(currentCoord[0]) + " " + str(currentCoord[1]) + " " + ("safe" if safe else "DANGER"))
+    if not safe:
+        break
