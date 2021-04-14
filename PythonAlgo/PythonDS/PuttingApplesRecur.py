@@ -63,9 +63,8 @@ def PuttingApplesRecur(applesLeft, platesLeft, distribution):
         else:
             return 0
     else:
-        maxAppleThisPlate = applesLeft - platesLeft
         tempCount = 0
-        for i in range(0, maxAppleThisPlate + 1):
+        for i in range(0,  applesLeft + 1):
             distributionCopy = distribution.copy()
             distributionCopy.append(i)
             tempCount += PuttingApplesRecur(applesLeft - i, platesLeft - 1, distributionCopy)

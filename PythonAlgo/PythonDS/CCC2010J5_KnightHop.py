@@ -1,5 +1,6 @@
 pairs = []
-line = input().split(" ")
+# 6 5
+line = input().split(" ")  #[6, 5]
 x = int(line[0])
 y = int(line[1])
 line = input().split(" ")
@@ -24,8 +25,10 @@ def Horse(x, y, depth):
     if (x, y, depth) in pairs:
         return -1
     pairs.append((x, y, depth))
+
     if x < 1 or x > 8 or y < 1 or y > 8:
         return -1
+
     if depth >= 7:
         return -1
 
