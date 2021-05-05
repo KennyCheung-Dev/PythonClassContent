@@ -13,6 +13,3 @@ while (True):
     if word == "X":
         break
     print(Bananas(word))
-
-
-
