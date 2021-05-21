@@ -21,6 +21,10 @@ Example:
     Then 4 is the first bad version
 '''
 
+# versions = [False, False, False, False, False, False, True, True, True, True, True, True, True]
+#
+# def isVersionBad(x):
+#     return versions[x]
 
 
 
