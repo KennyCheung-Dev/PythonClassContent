@@ -1,27 +1,27 @@
 '''
-Exercise: 1
-You are a product manager and currently leading a team to develop a new product.
+Beibao
 
-Unfortunately, the latest version of your product fails the quality check.
-Since each version is developed based on the previous versions, all the versions after a bad version are also bad.
+There is a bag you can fill in with items
+Items can be cut into different portions freely
+Each item has its amount worth, and the weight
 
-Suppose you have n version [1, 2, .... n] and you want to find out the first bad one, which
-causes all the following ones to be bad.
+Input:
+First line contains m n   (e.g. 150 7) where m represents the weight that
+your bag can fit
+The next n lines will represents(n-1)th item's amount worth and weight
 
-You are given an API tool isBadVersion(version) which will return whether version is bad.
-Implement a function to find the first bad version. YOu should minimize the number of calls to
-the API.
+Please find out hte max amount worth that can fit in your bag
 
-Example:
-    Given n = 5, version = 4 is the first bad version
-    call isBadVersion(3) -> False
-    call isBadVersion(5) -> True
-    call isBadVersion(4) -> True
+Input:
+150 7
+10 35
+40 30
+30 60
+50 50
+35 40
+40 10
+30 25
 
-    Then 4 is the first bad version
+Output:
+190.625
 '''
-
-
-
-
-

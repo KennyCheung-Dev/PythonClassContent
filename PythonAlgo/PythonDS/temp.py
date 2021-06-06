@@ -123,22 +123,46 @@
 
 
 
-def binary_search(arr, low, high, x):
-    # Check base case
-    if high >= low:
-        mid = (high + low) // 2
+# def binary_search(arr, low, high, x):
+#     # Check base case
+#     if high >= low:
+#         mid = (high + low) // 2
+#
+#         if arr[mid] == x:
+#             return mid
+#         elif arr[mid] < x:
+#             return binary_search(arr, mid + 1, high, x)
+#         elif arr[mid] > x:
+#             return binary_search(arr, low, mid - 1, x)
+#     else:
+#         return -1
+#
+# num = [1, 1, 2, 3, 5, 8, 13]
+# print(binary_search(num, 0, len(num) - 1, -5))
 
-        if arr[mid] == x:
-            return mid
-        elif arr[mid] < x:
-            return binary_search(arr, mid + 1, high, x)
-        elif arr[mid] > x:
-            return binary_search(arr, low, mid - 1, x)
-    else:
-        return -1
 
-num = [1, 1, 2, 3, 5, 8, 13]
-print(binary_search(num, 0, len(num) - 1, -5))
+
+
+'''
+
+Is Perfect Square
+
+Given a positive integer num, write a function which returns
+if num is a perfect square else False.
+
+Note: Do not use any built-in library function such as sqrt.
+
+Example 1:
+Input: 16
+Output: true
+
+Example 2:
+Input: 14
+Output: False
+
+'''
+
+
 
 
 
