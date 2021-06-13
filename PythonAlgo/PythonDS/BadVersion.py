@@ -27,5 +27,12 @@ Example:
 #     return versions[x]
 
 
-
+def firstBadVersion(n):
+    left, right = 1, n
+    while left < right:
+        middle = (left + right) // 2
+        if isBadVersion(middle):
+        else:
+            left = middle + 1
+    return left
 
