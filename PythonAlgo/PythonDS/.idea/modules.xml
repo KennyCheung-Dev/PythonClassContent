@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Python Crawler/.idea/Python Crawler.iml" filepath="$PROJECT_DIR$/../../Python Crawler/.idea/Python Crawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonDS.iml" filepath="$PROJECT_DIR$/.idea/PythonDS.iml" />
     </modules>
   </component>
