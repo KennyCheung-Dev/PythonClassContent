@@ -4,10 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (PythonUSACO)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Python Crawler" />
-    <orderEntry type="module" module-name="Python3" />
-    <orderEntry type="module" module-name="PythonUSACO" />
   </component>
 </module>

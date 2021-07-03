@@ -1,57 +1,12 @@
-max = 999999
-node = {
-    "a" : [[["b", 3], ["c", 4]], 0, ""],
-    "b" : [[["c", 0.5]], max, ""],
-    "c" : [[["b", 0.5], ["d", 1]], max, ""],
-    "d" : [[["c", 1]], max, ""]
-}
-
-visited = {
-    "a" : False,
-    "b" : False,
-    "c" : False,
-    "d" : False
-}
-
-currentNode = "a"
-
-for i in range(4):
-    visited[currentNode] = True
-    # Updating distance on connecting points
-    for n in node[currentNode][0]:
-        if n[1] + node[currentNode][1] < node[n[0]][1]:
-            node[n[0]][1] = n[1] + node[currentNode][1]
-            node[n[0]][2] = currentNode
-    #Choosing a next point to visit
-    minCost = max
-    nextNode = ""
-    for n in node[currentNode][0]:
-        if node[n[0]][1] < minCost:
-            minCost = node[n[0]][1]
-            nextNode = n[0]
-    currentNode = nextNode
-
-for i in node.items():
-    print(i)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(-3, 3, 100)
+y = 9 - x**2
+plt.xlim(-3, 3)
+plt.xticks(list(range(-3, 4)))
+plt.ylim(0.0, 9.0)
+plt.plot(x, y)
+ax = plt.gca()
+ax.set_aspect('equal')
+ax.grid(True)
+plt.show()
