@@ -1,99 +1,87 @@
-# Variables
-# x = 10
-# y = 20
-# x + y
-# print(x + y)
+import urllib.request
+import urllib.parse
 
-# statements
+data = {"q":"HelloWorld"}
+data = urllib.parse.urlencode(data)
+ourOwnMacintoshHeader = {
+    "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+}
+req = urllib.request.Request('https://www.google.com/search?' + data,
+                             headers=ourOwnMacintoshHeader)
+with urllib.request.urlopen(req) as response:
+    print(response.read().decode('utf-8'))
 
-# if-statements
-# if x < 15:
-#     print("X less thnn 15")
-# elif x > 30:
-#     print("X larger than 30")
-# else:
-#     print("X between 15 and 30")
 
-# loops
-# x = 10
-# while x < 15:
-#     x -= 1
-#     print(x)
-#     if (x <= 0):
-#         break
+# data = {"q":"HelloWorld"}
+# data = urllib.parse.urlencode(data)
+# req = urllib.request.Request('https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html')
+# with urllib.request.urlopen(req) as response:
+#     print(response.read().decode('utf-8'))
 
-# 1
-# 2
-# 3...
 
-500 - 1001
-'''
-500
-600
-700
-800
-900
-1000
-'''
-
-# for-loop
-# for i in range(500, 1001, 1000):
-#     print(i)
-
-l1 = []
-
-# Add
-for i in range(0, 11):
-    l1.append(i)
-
-# Insert 50
-# l1.insert(-1, 50)
-
-# Popping with index
-# l1.pop(2)
-
-# Removing with item
-# l1.remove(1000)
-
-# for i in range(1, 11):
-#     l1[i] = l1[i] * 100
-
-# Remove, 1,3,5,7,9
-
-# print(l1)
-
-# Function
-# Method
-
-# def BreedEnemies(numEnemies):
-#     for i in range(numEnemies):
-#         BreedEnemy()
+# GET
+# POSTimport urllib.request
+# import urllib.parse
 #
-# def BreedEnemy():
-#     print("An enemy is manufactured!")
+# data = {"q":"HelloWorld"}
+# data = urllib.parse.urlencode(data)
+# ourOwnMacintoshHeader = {
+#     "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+# }
+# req = urllib.request.Request('https://www.google.com/search?' + data,
+#                              headers=ourOwnMacintoshHeader)
+# with urllib.request.urlopen(req) as response:
+#     print(response.read().decode('utf-8'))
 #
-# BreedEnemies(300000)
+#
+# # data = {"q":"HelloWorld"}
+# # data = urllib.parse.urlencode(data)
+# # req = urllib.request.Request('https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html')
+# # with urllib.request.urlopen(req) as response:
+# #     print(response.read().decode('utf-8'))
+#
+#
+# # GET
+# # POST
+#
+#
+# # My website: https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html
+#
+# # req = urllib.request.Request('https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html')
+# # with urllib.request.urlopen(req) as response:
+# #     the_page = response.read()
+# #     print(the_page.decode('utf-8'))
+#
+#
+# # data = {'q':'HelloWorld'}
+# # data = urllib.parse.urlencode(data)
+# # req = urllib.request.Request('https://www.google.com/search?' + data)
+# # with urllib.request.urlopen(req) as response:
+# #     the_page = response.read()
+# #     print(the_page.decode('utf-8'))
+#
+#
+# # Homework this week:
+# # Get familiar with request types and their usage in https://reqres.in/
+# # Try out some of the GET Request with our code here
 
-# def Adding(a, b):
-#     return a + b
-# print(Adding(8, 19))
-# print(Adding(  Adding(3, 5) , Adding(3, 5) ))
+
+# My website: https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html
+
+# req = urllib.request.Request('https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html')
+# with urllib.request.urlopen(req) as response:
+#     the_page = response.read()
+#     print(the_page.decode('utf-8'))
 
 
+# data = {'q':'HelloWorld'}
+# data = urllib.parse.urlencode(data)
+# req = urllib.request.Request('https://www.google.com/search?' + data)
+# with urllib.request.urlopen(req) as response:
+#     the_page = response.read()
+#     print(the_page.decode('utf-8'))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Homework this week:
+# Get familiar with request types and their usage in https://reqres.in/
+# Try out some of the GET Request with our code here
