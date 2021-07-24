@@ -1,15 +1,15 @@
 import urllib.request
 import urllib.parse
 
-data = {"q":"HelloWorld"}
-data = urllib.parse.urlencode(data)
-ourOwnMacintoshHeader = {
-    "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
-}
-req = urllib.request.Request('https://www.google.com/search?' + data,
-                             headers=ourOwnMacintoshHeader)
-with urllib.request.urlopen(req) as response:
-    print(response.read().decode('utf-8'))
+# data = {"q":"HelloWorld"}
+# data = urllib.parse.urlencode(data)
+# ourOwnMacintoshHeader = {
+#     "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+# }
+# req = urllib.request.Request('https://www.google.com/search?' + data,
+#                              headers=ourOwnMacintoshHeader)
+# with urllib.request.urlopen(req) as response:
+#     print(response.read().decode('utf-8'))
 
 
 # data = {"q":"HelloWorld"}
@@ -85,3 +85,20 @@ with urllib.request.urlopen(req) as response:
 # Homework this week:
 # Get familiar with request types and their usage in https://reqres.in/
 # Try out some of the GET Request with our code here
+
+dataDefined = {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+
+dataDefined = urllib.parse.urlencode(dataDefined).encode('utf-8')
+
+ourOwnMacintoshHeader = {
+    "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+}
+req = urllib.request.Request('https://reqres.in/api/login',
+                             data = dataDefined,
+                             headers=ourOwnMacintoshHeader)
+with urllib.request.urlopen(req) as response:
+    print(response.read().decode('utf-8'))
+

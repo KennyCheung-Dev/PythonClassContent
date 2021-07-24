@@ -1,28 +1,47 @@
-'''
-To pass time Bessie the cow and her friends Elsie like to play a version of a agame they saw at the county fair.
-To start, Bessie puts three inverted shells on a table and place a small round pebble under one of them
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 
-The standard version of the game th corws saw being played allowed the player to see the initial location,
-and then required guessing its final location after all the swaps were complete.
 
-However, they like a different version, Elsie does not know the initial location of the pebbles,
-Bessie knowing the right answer, gives Elsie a score at the end equal to the number of correct guesses she made.
+# Fable of the tortoise and the hare
+# A turtle is racing with the hare,
+# Hare is so confident that it will win, he slept in the middle of the race
+# At the end, turtle won the race!
 
-Given the swaps and guesses, but not the initial pebble location.
-Please determine the highest possible score Elsie can get.
+# t = np.arange(0, 120, 0.5)
+# # Rabbit runs at 15 to 20 m/s
+# # Tortoise is running 3 m/s
+# tortoise = 3 * t
+#
+# rabbit = np.piecewise(t,
+#                       [t < 10, t > 110],
+#                       [lambda x : 15 * x, lambda x : 20 * (x - 110) + 150, lambda x : 150]
+#                       )
+#
+# plt.plot(t, tortoise, label='tortoise')
+# plt.plot(t, rabbit, label='rabbit')
+# plt.title('Race')
+# plt.xlabel('time')
+# plt.ylabel('meters')
+# plt.legend()
+# plt.show()
 
-Input:
+#-------------------------------------------------------------------------
 
-3
-1 2 1
-3 2 1
-1 3 1
+t = np.arange(0, 120, 0.5)
+# Rabbit runs at 15 to 20 m/s
+# Tortoise is running 3 m/s
+tortoise = 3 * t
 
-Output:
+rabbit = np.piecewise(t,
+                      [t < 10, t > 110],
+                      [lambda x : 15 * x, lambda x : 20 * (x - 110) + 150, lambda x : 150]
+                      )
 
-2
-In this example Esie could have earned at most 2 points,
-If the pebble started under shell 1, then she guessed exactly one right,
-But if it started at shell 2, then she guesses right twice!
-
-'''
+plt.plot(t, tortoise, label='tortoise')
+plt.plot(t, rabbit, label='rabbit')
+plt.title('Race', )
+plt.xlabel('time')
+plt.ylabel('meters')
+plt.legend()
+plt.show()
