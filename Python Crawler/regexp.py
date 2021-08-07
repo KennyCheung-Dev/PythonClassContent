@@ -72,17 +72,50 @@ https://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.co.uk/
 
 website = '''
 <h1>HeaderHere</h1>
-<p>Hmm my paragraph</p><a href="www.google.com">google.com</a>
+<p>Hmm my paragraph</p>
+<a href="www.google.com">google.com</a>
 '''
 
-result = re.findall(r"<([a-z]+)>", website)
-for i in result:
-    print(i)
+result = re.findall(r"<([a-z0-9]+||a href=\"(.+)\")>(.+)</[a-z0-9]+>", website)
+
+
+'''
+<    (      [a-z0-9]+       ||      a href=\"(.+)\"      )   >
+(.+)
+<     /     [a-z0-9]+     >
+'''
+
+
+
+print(result)
+# for i in result:
+#     if i[0][0] == "a":
+#         print("Tag: a    Content: " + i[2] + "     Link: " + i[1])
+#     else:
+#         print("Tag: " + i[0] + "   Content: " + i[2])
 #Output: Print
 '''
 Tag: h1  Content: HeaderHere
 Tag: p   Content: Hmm my paragraph
 Tag: a   Content: google.com   Link: www.google.com
+'''
+
+
+s = "aljefhlasf<1>akusehfasefas<3>kajwbrgajkgaf<4><6><7><9><10><12>"
+result = re.findall(r"<([0-9]+)>", s)  #Hint: () use groups
+for i in result:
+    print(i)
+
+'''
+1
+3
+4
+6
+7
+9
+10
+12
+
 '''
 
 
