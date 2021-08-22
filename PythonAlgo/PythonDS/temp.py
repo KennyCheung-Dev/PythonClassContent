@@ -1,20 +1,21 @@
 import re
 
-str = "Kenny Hello, 12345X67890 Kenny Lenny Zenny"
+str = "Kenn2 ]ello, 12345X67890 -enn9 1ennv Zennh"
 
-result = re.finditer(r"[]", str)
+result = re.finditer(r"...", str)
 
 for i in result:
     print(i)
 
-# Homework:
+# Homework: 10 points
 # Match the following:
 '''
-y 
-, 
-0 
-y 
-y 
+nn2
+, 1
+234
+5X6
+789
+nn9
 '''
 
-# 40
+# Points: 77

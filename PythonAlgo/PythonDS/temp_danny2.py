@@ -65,6 +65,39 @@ import matplotlib.pyplot as plt
 
 
 
+#Accessing Values
+# Similar to normal arrays, but more variety
 
-# 72
+# Indexing and slicing
+# q = np.array([3, 1, 4, 1, 5, 1, 6, 1, 7])
+# print(q)
+# print(q[2])
+# print(q[-1])
+# print(q[1:4])
+# print(q[:2])
+# print(q[[1, 3, 5, 7]])
+# print(q[::2])
+
+# Multidimensional arrays:
+a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
+# print(a)
+# print(a[0])
+# print(a[0][-1])
+# print(a[0, 1])
+# print(a[0, [1, 2]]) #Row 0, index 1 and 2
+# print(a[0:2, 2]) # Row 0 to 1, index 2
+# print(a[[0, 1], [1, 2]])
+
+# In-Class exercise:
+#Q1. Print the number at the second row, third column of the array:
+#Q2. Print the numbers in order from largest to smallest by a
+# series of indices (sort it yourself)
+a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
+
+#Q3. Print the number at index 2 on each row (Use a for loop)
+b = np.arange(2, 26).reshape(4, 6)
+
+
+
+# 143
 

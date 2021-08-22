@@ -14,9 +14,7 @@ def request_from_web(url):
     except requests.RequestException:
         return ""
 
-
 def parse_result(html):
-
     # We will be using findAll and () grouping
     pattern = re.compile(r"<li>.*?list_num.*?(\d+).</div>.*?<img src=\"(.*?)\".*?class=\"name\".*?title=\"(.*?)\">.*?class=\"star\">.*?class=\"tuijian\">(.*?)</span>.*?class=\"publisher_info\">.*?target=\"_blank\">(.*?)</a>.*?class=\"biaosheng\">.*?<span>(.*?)</span></div>.*?<p><span class=\"price_n\">&yen;(.*?)</span>.*?</li>", re.S)
     items = re.findall(pattern, html)
@@ -32,15 +30,30 @@ def parse_result(html):
             'price': item[6]
         }
 
+def write_item_to_file(item):
+    print('Writing data to file ====> ' + str(item))
+    with open('book.txt', 'a', encoding='UTF-8') as f:
+        f.write(json.dumps(item, ensure_ascii=False) + '\n')
+        f.close()
+
 def main(page):
     url = "http://bang.dangdang.com/books/fivestars/01.00.00.00.00.00-recent30-0-0-1-" + str(page)
     html = request_from_web(url)
     items = parse_result(html)
     for item in items:
-        print(item)
+        write_item_to_file(item)
+
+
+
+
+# Quick Review on opening and writing on files
+# file = open('dictionary.txt', 'a')
+# file.write("Hmmm")
+# file.close()
 
 if __name__ == "__main__":
-    main(1)
+    for i in range(1, 26):
+        main(i)
 '''
 range
 image
@@ -61,7 +74,3 @@ price
 # except:
 #     print("hmm?>")
 
-#Homework
-# Look at previous code,
-# Grab the html content from a website
-# Print the html code
