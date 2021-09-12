@@ -2,10 +2,24 @@ import re
 
 str = "Kenn2 ]ello, 12345X67890 -enn9 1ennv Zennh"
 
-result = re.finditer(r"...", str)
+str2 = "<header><h2>Hmmmmmm</h2><a href=\"google.com\">Link</a></header>"
+str3 = "<header></header>"
+str4 = "<header>lkfjgdshrlklifgjgjpwiot4ulersogw]]][]t4ueohsu4ghrosu</header>"
+
+result = re.finditer(r"<header>", str2)
+
 
 for i in result:
     print(i)
+
+'''
+Quantification
+*       0 or More
++       1 or More 
+?       0 or 1
+{3}     exactly 3
+{3, 6}  between of 3 to 6
+'''
 
 # Homework: 10 points
 # Match the following:
@@ -18,4 +32,4 @@ nn2
 nn9
 '''
 
-# Points: 77
+# Points: 140

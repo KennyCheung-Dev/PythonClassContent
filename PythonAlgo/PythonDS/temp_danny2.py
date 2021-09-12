@@ -79,7 +79,7 @@ import matplotlib.pyplot as plt
 # print(q[::2])
 
 # Multidimensional arrays:
-a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
+# a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
 # print(a)
 # print(a[0])
 # print(a[0][-1])
@@ -92,12 +92,98 @@ a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
 #Q1. Print the number at the second row, third column of the array:
 #Q2. Print the numbers in order from largest to smallest by a
 # series of indices (sort it yourself)
-a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
+# a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
 
 #Q3. Print the number at index 2 on each row (Use a for loop)
-b = np.arange(2, 26).reshape(4, 6)
+# b = np.arange(2, 26).reshape(4, 6)
 
 
 
-# 143
+
+# Append elements
+# np.append(?)
+# v = np.arange(5)
+# v = np.append(v, 6)
+# v = np.append(v, [5, 6, 7])
+# v = np.append(v, list(range(8,10)))
+
+
+# Insert
+# v = np.insert(v, 1, 999)
+# [-2 -1 0 999   1   2   3   4   6   5   6   7   8   9]
+# v = np.insert(v, 0, [-2, -1])
+# v = np.insert(v, len(v), 10)
+# print(v)
+
+# Zeroes, Ones, Indentity, Diag
+# a = np.zeros(1000)
+# a = np.identity(5)
+# a = np.diag([1, 2, 3, 4, 5, 6, 7, 8, 9])
+# print(a)
+
+# Accessing Values
+# Similar to normal lists, but more variety
+# a = np.array([3, 1, 4, 1, 5, 1, 6])
+# print(a[2])
+# print(a[-1])
+# print(a[1:3])
+# print(a[::2])
+# print(a[1::2])
+# print(a[:4])
+# print(a[[0, 2, 4]])
+
+
+# Multidimensional arrays: use multiple numbers for each axis
+# a = np.array([2, 7, 1, 8, 2, 8]).reshape(2, 3)
+# print(a)
+# print(a[0])
+# print(a[0][1])
+# print(a[0, 1])
+# print(a[[0, 1]])
+# print(a[0, [1, 2]]) # Row0, index 1 and 2
+# print(a[0:2, 2]) # Row 0 to 1, index2
+# print(a[[0, 1], [1, 2]])
+
+# index and modify
+# a = np.arange(5)
+# a[1:2] = 5
+# a[2:4] = [6, 7]
+# print(a)
+
+# np.delete
+# a = np.arange(5)
+# a = np.delete(a, 0)
+# a = np.delete(a, list(range(0, len(a))))
+# print(a)
+
+# In-class:
+# Q1. Make the list equal to np.arange(10) by adding and deleting the missing numbers:
+# a = np.array([0, 1, 3, 4, 6, 8, 11])
+# a = np.delete(a, 6)
+# a = np.insert(a, 2, 2)
+# a = np.insert(a, 5, 5)
+# a = np.insert(a, 7, 7)
+# a = np.insert(a, 9, 9)
+# print(a)
+
+# Q2. Make the list sorted (smallest to Largest)
+# by removing the out of place numbers
+# Remove the least number of elements possible
+# a = np.array([5, 2, 3, 1, 6, 8])
+
+
+
+
+# 108
+
+
+
+
+
+
+
+
+
+
+
 

@@ -11,7 +11,7 @@ def makeSoup(url):
     soup = BeautifulSoup(page, "html.parser")
     return soup
 
-url = "https://kennycheung-dev.github.io/portfolio.github.io/Gallery.html"
+url = "https://kennycheung-dev.github.io/portfolio.github.io/Project.html"
 
 soup = makeSoup(url)
 
@@ -27,10 +27,37 @@ soup = makeSoup(url)
 
 # Homework
 # Match all a tags that is under a div tag that has a class "item?"
+# match = soup.find("div", class_="item1").a
+# print(match)
+# match = soup.find("div", class_="item2").a
+# print(match)
+# match = soup.find("div", class_="item3").a
+# print(match)
+# match = soup.find("div", class_="item4").a
+# print(match)
+# match = soup.find("div", class_="item5").a
+# print(match)
+
+# Attributes:
+# use []
+# match = soup.find("div", class_="item5").a["href"]
+# print(match)
+
+# Text wrapped around a tag:
+# use .text
+# match = soup.find("div", class_="item5").a.text
+# print(match)
+
+#
+match = soup.findAll("h2")
+print(match)
 
 
 
 
+#Homework
+#Link: https://kennycheung-dev.github.io/portfolio.github.io/Project-Kaboom.html
+#Get all images src, not including top banner, and video
 
 print()
 print()
