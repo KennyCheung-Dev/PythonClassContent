@@ -171,10 +171,63 @@ import matplotlib.pyplot as plt
 # Remove the least number of elements possible
 # a = np.array([5, 2, 3, 1, 6, 8])
 
+# Arithmetic Operations on Arrays (+ = * / etc)
+# Can easily do these on whole arrays
+# a = np.array([1, 2, 3])
+# print(a + 2)
+# print(a - 2)
+# print(a * 2)
+# print(a ** 2)
+# print(a / 2)
+# print(a % 2)
+
+# Arithmetic Ops between arrays
+# a = np.array([1, 2, 3])
+# b = np.array([4, 5, 6])
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+
+# Unary arithmetic operations
+# a = np.array([1, 2, 3])
+# print(a.max())
+# print(a.min())
+# print(a.sum())
+# print(a.cumsum())
+
+# a = np.array(list(range(1, 101)))
+# print(a.cumsum())
+
+
+# Convenient rank & order
+# sort
+# numpy.sort(a)
+
+# Optional Attributes:
+# axis: if the array is multidimensional, specify an axis to sort
+# kind: sorting algorithms (quicksort, mergesort, heapsort, stable)
+
+# a = np.array([5, 2, 3, 1, 6, 8, 2, 5, 7, 9, 2, 1]).reshape([3, 4])
+# print(a)
+# print(np.sort(a, axis=2, kind="mergesort"))
+
+# argsort
+# instead of sorting the array, this function gives
+# you the indices
+# a = np.array([5, 2, 3, 1, 6, 8])
+# print(np.argsort(a))
+
+# In-Class Exerice:
+# Q1. Write a funcion with input array a that
+# returns a sorted version of a
+# Using Argo Sort
 
 
 
-# 108
+
+
+# 173
 
 
 
