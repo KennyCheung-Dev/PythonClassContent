@@ -53,18 +53,113 @@ import pandas as pd
 # a = pd.Series(10)
 # print(a)
 
-dict = {
-    'a' : 1,
-    'b' : 2,
-    'c' : 3,
-    'd' : 4,
-    'e' : 5
-}
-a = pd.Series(dict)
-print(a)
+# dict = {
+#     'a' : 1,
+#     'b' : 2,
+#     'c' : 3,
+#     'd' : 4,
+#     'e' : 5
+# }
+# a = pd.Series(dict)
+# print(a)
 
 # dict = {
 #     'Hamburger' : { 'Name' : 'Ultimatum', 'price' : 20 }
 # }
 
-# 233
+#Creating a Series from a singular scalar value
+# labels = ['a', 'b', 'c', 'd', 'e']
+# a = pd.Series(100, index=labels)
+# print(a)
+
+#Giving a name to a series
+# a = pd.Series(np.array([6, 7, 8, 9, 10]), name="prices")
+# print(a.name)
+# a.name = "world"
+# print(a.name)
+
+#In-Class exericse: (20)
+# Creating the following data into a series:
+# Apple    :    3
+# Oranges  :    1
+# Pears    :    3
+# Cherries :    1
+# Peaches  :    5
+# Coconuts :    9
+
+#2nd Approach
+# amounts = [3, 1, 4, 1, 5, 9]
+# labels = ["Apple", "Oranges", "Pears", "Cherries", "Peaches", "Coconuts"]
+# a = pd.Series(amounts, index=labels, name = "Fruits")
+# print(a)
+
+#Series Operations - list-like
+# amounts = [3, 1, 4, 1, 5, 9]
+# labels = ["Apple", "Oranges", "Pears", "Cherries", "Peaches", "Coconuts"]
+# a = pd.Series(amounts, index=labels, name = "Fruits")
+
+#Index operations on series
+# print(a[0])
+# print(a[::2])
+# print(a[[0, 2, 3]])
+
+#Extract list/arrays from series
+# print(a.array)
+# print(a.to_numpy())
+
+#Series Operations - dict-like
+# amounts = [3, 1, 4, 1, 5, 9]
+# labels = ["Apple", "Oranges", "Pears", "Cherries", "Peaches", "Coconuts"]
+# a = pd.Series(amounts, index=labels, name = "Fruits")
+
+# print(a['Apple'])
+# print('Apple' in a)
+#Check if 6 is in the series values
+# print(6 in a.values)
+# print(1 in a.values)
+# print(6 in a.to_numpy())
+
+# In-class exercise:
+# Build a dictionary of animals and their numbers
+# Build a panda Series with it
+# Extract only the 2nd and 4th entry in the Series
+# Turn it in to an numpy array and print
+
+# [19, 18, 17]       # Numpy_Array
+# [price: 19, beforeTax: 18, employeeDiscount: 17]   # Series
+# Data Frame
+'''
+McDonald Prices : {    
+                    BigMac : { price: 19, beforeTax: 18, employeeDiscount: 17},
+                    ChickenNuggets : { price: 1200, beforeTax: 120, employeeDiscount: 1.2}, / chicken
+                    ChickenNugget : { price: 12000, beforeTax: 12, employeeDiscount: 0}, #one chicken nugget
+                  }
+'''
+
+# pd.DataFrame()
+# Create dataframes from lists, dicts, Series
+
+# Dictionary
+# d = { "item" : ["a", "b", "c"], "amount" : [1, 2, 3]}
+# df = pd.DataFrame(d)
+# print(df)
+
+# Options: index and columns
+d = { "item" : ["a", "b", "c"], "amount" : [1, 2, 3]}
+df = pd.DataFrame(d, index=['e', 'f', 'g'], columns=['item', 'price', 'amount'])
+print(df)
+
+
+'''
+Create a dataframe from these: (30)
+     Name    Scores   Grade   IsBadMath
+0    Danny   2        A       False
+1    Kenny   100      SSS     True
+2    Rax     35       S       False
+'''
+
+
+
+
+
+# 288

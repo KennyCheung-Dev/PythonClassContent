@@ -4,7 +4,6 @@ Farmer John owns 26 cows, which by happenstance all have names starting with dif
 The cows have recently become fascinated by the game of tic-tac-toe, but since they don't like the fact that only two cows can play at a time, they have invented a variant where multiple cows can play at once! Just like with regular tic-tac-toe, the game is played on a 3×3 board, only instead of just Xs and Os, each square is marked with a single character in the range A…Z to indicate the initial of the cow who claims that square.
 
 An example of a gameboard might be:
-
 COW
 XXO
 ABC
