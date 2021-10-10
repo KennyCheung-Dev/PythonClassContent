@@ -145,9 +145,9 @@ McDonald Prices : {
 # print(df)
 
 # Options: index and columns
-d = { "item" : ["a", "b", "c"], "amount" : [1, 2, 3]}
-df = pd.DataFrame(d, index=['e', 'f', 'g'], columns=['item', 'price', 'amount'])
-print(df)
+# d = { "item" : ["a", "b", "c"], "amount" : [1, 2, 3]}
+# df = pd.DataFrame(d, index=['e', 'f', 'g'], columns=['item', 'price', 'amount'])
+# print(df)
 
 
 '''
@@ -158,8 +158,25 @@ Create a dataframe from these: (30)
 2    Rax     35       S       False
 '''
 
+names = pd.Series(['Danny', 'Kenny', 'Rx-8'], index=[0, 1, 30])
+scores = pd.Series(['0.200000000000000000', '100', '35'], index=[0, 1, 30])
+grades = pd.Series(['A', 'SSS', 'S'], index=[0, 1, 30])
+isBadMath = pd.Series([False, True, False], index=[0, 1, 30])
+
+data = {
+    "Names" : names,
+    "Scores" : scores,
+    "Grades" : grades,
+    "Is Bad at Math" : isBadMath
+}
+
+df = pd.DataFrame(data)
+print(df)
 
 
 
 
-# 288
+
+
+
+# 353
