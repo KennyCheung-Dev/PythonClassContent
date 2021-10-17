@@ -159,7 +159,7 @@ Create a dataframe from these: (30)
 '''
 
 names = pd.Series(['Danny', 'Kenny', 'Rx-8'], index=[0, 1, 30])
-scores = pd.Series(['0.200000000000000000', '100', '35'], index=[0, 1, 30])
+scores = pd.Series([0.02, 100, 35], index=[0, 1, 30])
 grades = pd.Series(['A', 'SSS', 'S'], index=[0, 1, 30])
 isBadMath = pd.Series([False, True, False], index=[0, 1, 30])
 
@@ -171,12 +171,66 @@ data = {
 }
 
 df = pd.DataFrame(data)
+# print(df)
+
+# head and tail gives you the first or last specified amount of entries
+# print(df.head(1))
+# print(df.tail(1))
+
+# Get a certain column by ['Column name']
+# print(df[['Names', 'Grades']])
+
+# Retrieve entry by location and index location
+# print()
+# print(df.loc[30])
+# print()
+# print(df.iloc[2])
+
+# Slice df
+# print(df.loc[0:30])
+# print(df[0:1])
+
+# In-Class exercise
+# Retrieve from Kenny to Rx-8, Only Score to Grades column (40)
+
+#Sort by values
+# print(df.sort_values(by='Names', ascending=False))
+
+# Get a high-level statistical summary on your data
+# print(df.describe())
+
+# Apply Functions on a DataFrame
+# df.apply() :
+# print(df.apply(np.cumsum))
+
+# Adding columns after dataframe has been defined
+att = pd.Series([9000000000, 100, 75], index=[0, 1, 30])
+df['Attack'] = att
+
+# Create new columns with existing columns
+# Defense = Attack * Scores
+scores = df["Scores"]
+attack = df["Attack"]
+defense = scores * attack
+df["Defense"] = defense
 print(df)
 
+# Delete columns:
+# del df["Is Bad at Math"]
+deletedColumn = df.pop("Is Bad at Math")
+print(df)
+print(deletedColumn)
+
+# Insert column
+speed = pd.Series([2001, 100, 2000], index=[0, 1, 30])
+df.insert(4, "Speed", speed)
+print(df)
+
+# df.assign() a more powerful function for column insertion
+# Returns a DataFrame (great for method chaining)
+newDf = df.assign(Stupidity=df["Scores"] / df["Speed"]).assign(Size=df["Defense"] / df["Speed"])
+print(newDf)
 
 
 
-
-
-
-# 353
+# 443

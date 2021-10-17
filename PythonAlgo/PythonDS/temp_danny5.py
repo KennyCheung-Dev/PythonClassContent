@@ -67,7 +67,7 @@ def CheckDoubleWins():
     global amountOfDoubleWins
     for i in range(len(uniqueSet)):
         for j in range(i+1, len(uniqueSet)):
-            if CheckWins({uniqueSet[i], uniqueSet[j]})
+            if CheckWins({uniqueSet[i], uniqueSet[j]}):
                 amountOfDoubleWins += 1
     return amountOfDoubleWins
 
