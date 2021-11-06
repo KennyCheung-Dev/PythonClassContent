@@ -20,3 +20,4 @@ li = list(map(int, x))
 
 print(li)
 # +30
+

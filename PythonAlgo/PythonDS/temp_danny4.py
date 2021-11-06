@@ -1,3 +1,4 @@
+
 # Introduction to pandas & its relation to numpy
 # Series, DataFrame (creation, viewing data, selection)
 # Statistical operations on a DataFrame
@@ -32,6 +33,7 @@
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # pd.Series
 # You can make a series with different things such as a numpy array,
@@ -158,19 +160,19 @@ Create a dataframe from these: (30)
 2    Rax     35       S       False
 '''
 
-names = pd.Series(['Danny', 'Kenny', 'Rx-8'], index=[0, 1, 30])
-scores = pd.Series([0.02, 100, 35], index=[0, 1, 30])
-grades = pd.Series(['A', 'SSS', 'S'], index=[0, 1, 30])
-isBadMath = pd.Series([False, True, False], index=[0, 1, 30])
+# names = pd.Series(['Danny', 'Kenny', 'Rx-8'], index=[0, 1, 30])
+# scores = pd.Series([0.02, 100, 35], index=[0, 1, 30])
+# grades = pd.Series(['A', 'SSS', 'S'], index=[0, 1, 30])
+# isBadMath = pd.Series([False, True, False], index=[0, 1, 30])
 
-data = {
-    "Names" : names,
-    "Scores" : scores,
-    "Grades" : grades,
-    "Is Bad at Math" : isBadMath
-}
+# data = {
+#     "Names" : names,
+#     "Scores" : scores,
+#     "Grades" : grades,
+#     "Is Bad at Math" : isBadMath
+# }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 # print(df)
 
 # head and tail gives you the first or last specified amount of entries
@@ -182,7 +184,7 @@ df = pd.DataFrame(data)
 
 # Retrieve entry by location and index location
 # print()
-# print(df.loc[30])
+# print(df.loc[30`]`)
 # print()
 # print(df.iloc[2])
 
@@ -204,33 +206,115 @@ df = pd.DataFrame(data)
 # print(df.apply(np.cumsum))
 
 # Adding columns after dataframe has been defined
-att = pd.Series([9000000000, 100, 75], index=[0, 1, 30])
-df['Attack'] = att
+# att = pd.Series([9000000000, 100, 75], index=[0, 1, 30])
+# df['Attack'] = att
 
 # Create new columns with existing columns
 # Defense = Attack * Scores
-scores = df["Scores"]
-attack = df["Attack"]
-defense = scores * attack
-df["Defense"] = defense
-print(df)
+# scores = df["Scores"]
+# attack = df["Attack"]
+# defense = scores * attack
+# df["Defense"] = defense
+# print(df)
 
 # Delete columns:
 # del df["Is Bad at Math"]
-deletedColumn = df.pop("Is Bad at Math")
-print(df)
-print(deletedColumn)
+# deletedColumn = df.pop("Is Bad at Math")
+# print(df)
+# print(deletedColumn)
 
 # Insert column
-speed = pd.Series([2001, 100, 2000], index=[0, 1, 30])
-df.insert(4, "Speed", speed)
-print(df)
+# speed = pd.Series([2001, 100, 2000], index=[0, 1, 30])
+# df.insert(4, "Speed", speed)
+# print(df)
 
 # df.assign() a more powerful function for column insertion
 # Returns a DataFrame (great for method chaining)
-newDf = df.assign(Stupidity=df["Scores"] / df["Speed"]).assign(Size=df["Defense"] / df["Speed"])
-print(newDf)
+# newDf = df.assign(Stupidity=df["Scores"] / df["Speed"]).assign(Size=df["Defense"] / df["Speed"])
+# print(newDf)
+
+# pd.concat() : concatenate given DataFrames together
+# along either axes
+# Does not look at labels/indexes
+# (if two Dataframes share some labels/indices, they'll both get included
+# pieces = [newDf["Names"], newDf["Stupidity"], newDf["Defense"]]
+# reordered = pd.concat(pieces)
+# print(reordered)
+
+# append DataFrame onto Dataframe!
+# Create a dataframe of 1 entry (1 person)
+
+# print(newDf.columns)
+# 'Names', 'Scores', 'Grades', 'Attack', 'Speed', 'Defense', 'Stupidity', 'Size'
+# ReddyData = {
+#     "Names" : pd.Series({"60" : "Reddy"}),
+#     "Scores" : pd.Series({"60" : 0}),
+#     "Grades" : pd.Series({"60" : "F"}),
+#     "Attack" : pd.Series({"60" : 20}),
+#     "Speed" : pd.Series({"60" : 5000}),
+#     "Defense" : pd.Series({"60" : 600000}),
+#     "Stupidity" : pd.Series({"60" : 0}),
+#     "NumberOfFins" : pd.Series({"60" : 17}),
+# }
+
+# reddyDF = pd.DataFrame(ReddyData)
+# appended_df = newDf.append(reddyDF)
+# print(appended_df)
+
+#In-class exercise:
+# Add a new entry, (new fish/person)
+# appended_df.loc[1, "NumberOfFins"] = 20
+# appended_df.loc[30, "NumberOfFins"] = 79
+# print(appended_df["NumberOfFins"])
+
+# 633
+
+# Plot the Dataframe!
+# plt.figure()
+# df.plot()
+# plt.show()
+
+# plt.figure()
+# appended_df.plot()
+# plt.show()
 
 
+labels = ["apples", "oranges", "pears", "cherries", "peaches", "coconuts"]
+day1 = pd.Series([3, 1, 4, 1, 5, 8], index=labels)
+day2 = pd.Series([2, 7, 1, 8, 2, 8], index=labels)
+day3 = pd.Series([2, 6, 5, 3, 5, 3], index=labels)
+d = { "day1":day1, "day2":day2, "day3":day3}
+df = pd.DataFrame(d)
+print(df)
 
-# 443
+# Default Line Graph
+# df.plot()
+
+
+# Reversing Axis
+# df.T is what we want (Transposed)
+print(df.T)
+# df.T.plot()
+
+# Box Graph
+# df.T.plot(kind="box")
+
+# Hist Graph
+# df.T.plot(kind="hist")
+# df.T.plot(kind="hist", subplots=True)
+
+# Pie Graph
+# df.plot(kind="pie", subplots=True, figsize=[15, 6], layout=(2, 2))
+
+# bar Graph
+# df.T.plot.bar()
+# df.plot.barh()
+
+# Legend
+# df.plot(kind="pie", subplots=True, figsize=[15, 6], layout=(2, 2), legend=False)
+
+# Table
+# df.plot(kind="pie", subplots=True, figsize=[15, 6], layout=(2, 2), legend=False, table=True)
+
+# Draw the plots
+# plt.show()

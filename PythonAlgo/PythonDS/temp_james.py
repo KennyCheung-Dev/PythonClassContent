@@ -88,19 +88,19 @@ during part of which she is 5 miles per hour over the speed limit. The correct a
 # ["3", "3"]
 # [3, 3]
 
-speedLimitInput = []
-speedInput = []
-
-N, M = [int(i) for i in input().split()]
-
-for i in range(N):
-    speedLimitInput.append([int(i) for i in input().split()])
-
-for i in range(M):
-    speedInput.append([int(i) for i in input().split()])
-
-speedLimit = [] # 100 entries inside
-speed = []
+# speedLimitInput = []
+# speedInput = []
+#
+# N, M = [int(i) for i in input().split()]
+#
+# for i in range(N):
+#     speedLimitInput.append([int(i) for i in input().split()])
+#
+# for i in range(M):
+#     speedInput.append([int(i) for i in input().split()])
+#
+# speedLimit = [] # 100 entries inside
+# speed = []
 
 '''
 [
@@ -110,30 +110,170 @@ speed = []
 ]
 '''
 
-for section in speedLimitInput: # each i contains [40, 75]
-    for j in range(section[0]):
-        speedLimit.append(section[1])
-
-for section in speedInput:
-    for j in range(section[0]):
-        speed.append(section[1])
-
-print(speedLimit)
-print(speed)
-
-highestSpeedExceeded = -1
-for i in range(100):
-    speedTravelling = speed[i]
-    limit = speedLimit[i]
-    speedExceeded = speedTravelling - limit  # 5
-    if speedExceeded > highestSpeedExceeded:
-        highestSpeedExceeded = speedExceeded
-
-print(highestSpeedExceeded)
+# for section in speedLimitInput: # each i contains [40, 75]
+#     for j in range(section[0]):
+#         speedLimit.append(section[1])
+#
+# for section in speedInput:
+#     for j in range(section[0]):
+#         speed.append(section[1])
+#
+# print(speedLimit)
+# print(speed)
+#
+# highestSpeedExceeded = -1
+# for i in range(100):
+#     speedTravelling = speed[i]
+#     limit = speedLimit[i]
+#     speedExceeded = speedTravelling - limit  # 5
+#     if speedExceeded > highestSpeedExceeded:
+#         highestSpeedExceeded = speedExceeded
+#
+# print(highestSpeedExceeded)
 
     # print("Bessie is travelling at " + str(speedTravelling) + "mph, the speed limit is " + str(limit))
 
 
+
+
+
+#ATATGTAGCTAGCATAATA
+# possibleEnds = ["TAA", "TAG", "TGA"]
+# line = input()
+# line = line[line.index("ATG"):]
+# for i in range(len(line) - 3, 2, -1):
+#     if line[i:i+3] in possibleEnds:
+#         if i % 3 == 0:
+#             print(line[0:i+3])
+#             break
+#
+# answers = []
+# for end in possibleEnds:
+#     currentEndIndex = len(line)
+#     while currentEndIndex > 4:
+#         if line.rfind(end, 0, currentEndIndex) == -1:
+#             break
+#         else:
+#             indexOfEndingTag = line.rfind(end, 0, currentEndIndex)
+#             if indexOfEndingTag % 3 == 0:
+#                 answers.append(line[0:indexOfEndingTag+3])
+#                 break
+#         currentEndIndex -= 1
+# answers = sorted(answers, key=lambda item: len(item))
+# print(answers[-1])
+
+# Quick tutorial on lambda
+# list = [[999, 1], [2, 2], [1, 3], [0, 4], [8, 5]]
+# list = sorted(list, key=lambda item: 0)
+# print(list)
+
+
+# def AnonymousFunction(item):
+#     return item[1]
+
+# key = 5
+# chr(ord("a") + ((ord("h") - ord("a")) % 26))
+# index = ord("x")
+# # print(index - 97) # 120 - 97 = 23
+# newIndex = ((index - 97) + 5) % 26
+# newChar = chr(newIndex)
+# print(newChar)
+'''
+% 3
+
+0 0
+1 1
+2 2
+3 0
+4 1
+5 2
+6 0
+7 1 
+8 2
+9 0
+10 1
+11 2
+12 0
+13 1
+'''
+#
+# z 25 % 26 : 25 z
+# 26 % 26 : 0 a
+# 27 % 26 : 1 b
+#
+# x + 1   24 % 26  24 = y
+#
+# 0 - 26 range
+
+'''
+Kenny: 50
+Kenny: 60
+James: 2
+James: 2000
+'''
+
+
+# dict = {}
+#
+# dict["Kenny"] = 50
+# dict["James"] = 1000
+#
+# print(dict["Kenny"])
+
+# numbers = {
+#     '0':'ling',
+#     '1':'yi',
+#     '2':'er',
+#     '3':'san',
+#     '4': 'si',
+#     '5':'wu',
+#     '6':'liu',
+#     '7':'qi',
+#     '8':'ba',
+#     '9':'jiu',
+#     '10': 'shi'
+# }
+
+# def Chinese(num):
+#     if 0 <= num <= 10:
+#         return numbers[str(num)]
+#     elif 11 <= num <= 19:
+#        return numbers['10'] + " " + numbers[str(num)[1]]
+#     else:
+#         if str(num)[1] == "0":
+#             return numbers[str(num)[0]] + " " + numbers['10']
+#         else:
+#             return numbers[str(num)[0]] + " " + numbers['10'] + " " + numbers[str(num)[1]]
+#
+# print(Chinese(17))
+
+
+
+# Hanoi Tower
+towers = [[], [], []]
+numPlate = int(input())
+for i in range(numPlate):
+    towers[0].append(numPlate - i)
+
+def Letter(i):
+    return "A" if i == 0 else "B" if i == 1 else "C"
+
+def HanoiRecur(num, fromRod, toRod, auxRod):
+    global towers
+    if num == 0:
+        pass
+        # towers[toRod].append(towers[fromRod].pop(-1))
+        # print("Plate size: " + str(towers[toRod][-1]) + " moved from " + Letter(fromRod) + " to " + Letter(toRod))
+        # print("At this Point, towers: " + str(towers))
+    else:
+        HanoiRecur(num - 1, fromRod, auxRod, toRod)
+        towers[toRod].append(towers[fromRod].pop(-1))
+        print("Plate size: " + str(towers[toRod][-1]) + " moved from " + Letter(fromRod) + " to " + Letter(toRod))
+        HanoiRecur(num - 1, auxRod, toRod, fromRod)
+        print("At this Point, towers: " + str(towers))
+
+
+HanoiRecur(numPlate, 0, 2, 1)
 
 
 
