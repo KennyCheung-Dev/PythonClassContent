@@ -250,30 +250,32 @@ James: 2000
 
 
 # Hanoi Tower
-towers = [[], [], []]
-numPlate = int(input())
-for i in range(numPlate):
-    towers[0].append(numPlate - i)
+# towers = [[], [], []]
+# numPlate = int(input())
+# for i in range(numPlate):
+#     towers[0].append(numPlate - i)
+#
+# def Letter(i):
+#     return "A" if i == 0 else "B" if i == 1 else "C"
+#
+# def HanoiRecur(num, fromRod, toRod, auxRod):
+#     global towers
+#     if num == 0:
+#         pass
+#     else:
+#         HanoiRecur(num - 1, fromRod, auxRod, toRod)
+#         towers[toRod].append(towers[fromRod].pop(-1))
+#         print("Plate size: " + str(towers[toRod][-1]) + " moved from " + Letter(fromRod) + " to " + Letter(toRod))
+#         HanoiRecur(num - 1, auxRod, toRod, fromRod)
+#         print("At this Point, towers: " + str(towers))
+#
+# HanoiRecur(numPlate, 0, 2, 1)
 
-def Letter(i):
-    return "A" if i == 0 else "B" if i == 1 else "C"
-
-def HanoiRecur(num, fromRod, toRod, auxRod):
-    global towers
-    if num == 0:
-        pass
-        # towers[toRod].append(towers[fromRod].pop(-1))
-        # print("Plate size: " + str(towers[toRod][-1]) + " moved from " + Letter(fromRod) + " to " + Letter(toRod))
-        # print("At this Point, towers: " + str(towers))
-    else:
-        HanoiRecur(num - 1, fromRod, auxRod, toRod)
-        towers[toRod].append(towers[fromRod].pop(-1))
-        print("Plate size: " + str(towers[toRod][-1]) + " moved from " + Letter(fromRod) + " to " + Letter(toRod))
-        HanoiRecur(num - 1, auxRod, toRod, fromRod)
-        print("At this Point, towers: " + str(towers))
 
 
-HanoiRecur(numPlate, 0, 2, 1)
+# Reverse
+# HelloWorld
+# dlroWolleH
 
 
 
