@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../CCC4/.idea/CCC4.iml" filepath="$PROJECT_DIR$/../CCC4/.idea/CCC4.iml" />
       <module fileurl="file://$PROJECT_DIR$/../CCC5/.idea/CCC5.iml" filepath="$PROJECT_DIR$/../CCC5/.idea/CCC5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CCC6/.idea/CCC6.iml" filepath="$PROJECT_DIR$/../CCC6/.idea/CCC6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CCC7/.idea/CCC7.iml" filepath="$PROJECT_DIR$/../CCC7/.idea/CCC7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CCC8/.idea/CCC8.iml" filepath="$PROJECT_DIR$/../CCC8/.idea/CCC8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CCC9/.idea/CCC9.iml" filepath="$PROJECT_DIR$/../CCC9/.idea/CCC9.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Python Crawler/.idea/Python Crawler.iml" filepath="$PROJECT_DIR$/../../Python Crawler/.idea/Python Crawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Python3/.idea/Python3.iml" filepath="$PROJECT_DIR$/../../Python3/.idea/Python3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonDS.iml" filepath="$PROJECT_DIR$/.idea/PythonDS.iml" />
