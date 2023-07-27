@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fa4a581-891e-4124-9353-a4fc36d15abf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Pygame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceInvader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BGR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/alien3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/arraydemo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/asprite.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/black.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blue.mpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bomb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/boom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/brick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car_door.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chimp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/crimson.pnm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/danger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/explosion1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/fist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/green.pcx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grey.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/house_lo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/house_lo.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/house_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/laplacian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/liquid.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/midikeys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/purple.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scarlet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/secosmic_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/shot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/teal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/turquoise.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/whiff.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/yellow.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/PygameTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PygameTest/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UltimatePygameIntro-main/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UltimatePygameIntro-main/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UltimatePygameIntro-main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonAlgo/PythonDS/.idea/PythonDS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonAlgo/PythonDS/.idea/PythonDS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonAlgo/PythonDS/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonAlgo/PythonDS/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonAlgo/PythonDS/Gary.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonAlgo/PythonDS/Gary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonAlgo/PythonDS/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonAlgo/PythonDS/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonAlgo/PythonDS/temp_William.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonAlgo/PythonDS/temp_William.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Qz8kLIab3CvdQmESoSDvrNnc84" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Tets">
+    <configuration name="ClassUsage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassUsage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Collision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collision.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Features" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpaceInvader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpaceInvader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Tets" />
+        <item itemvalue="Python.Features" />
+        <item itemvalue="Python.SpaceInvader" />
+        <item itemvalue="Python.Collision" />
+        <item itemvalue="Python.ClassUsage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa4a581-891e-4124-9353-a4fc36d15abf" name="Default Changelist" comment="" />
+      <created>1686345229243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686345229243</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="227" key="GridCell.Tab.0.bottom" timestamp="1686616238095">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1419" height="227" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1686616238095" />
+    <state width="1419" height="227" key="GridCell.Tab.0.center" timestamp="1686616238095">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1419" height="227" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1686616238095" />
+    <state width="1419" height="227" key="GridCell.Tab.0.left" timestamp="1686616238095">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1419" height="227" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1686616238095" />
+    <state width="1419" height="227" key="GridCell.Tab.0.right" timestamp="1686616238095">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1419" height="227" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1686616238095" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1686611385818">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1686611385818" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/pygame/examples/aliens.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
